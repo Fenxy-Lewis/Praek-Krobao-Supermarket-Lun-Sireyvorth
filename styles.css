@@ -612,6 +612,7 @@ body {
 
 .category-section {
   margin-bottom: 4rem;
+  width: 100%;
 }
 
 .category-title {
@@ -634,6 +635,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, minmax(200px, 1fr));
   gap: 2rem;
+  justify-content: center;
 }
 
 .product-card {
@@ -686,6 +688,7 @@ body {
   height: auto;
   top: 15px;
   right: 18px;
+  z-index: 10;
 }
 
 .product-card h4 {
