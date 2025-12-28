@@ -1,0 +1,222 @@
+/* ========== AUTH SECTION ========== */
+.auth-section {
+    min-height: calc(100vh - 140px);
+    background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+    padding: 3rem 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    max-width: 900px;
+    width: 100%;
+    align-items: center;
+}
+
+.auth-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2.5rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.auth-header h1 {
+    font-size: 28px;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.auth-header p {
+    color: var(--text-secondary);
+    font-size: 14px;
+    margin-bottom: 2rem;
+}
+
+/* ========== FORM STYLES ========== */
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.form-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.form-input {
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border-gray);
+    border-radius: 6px;
+    font-size: 14px;
+    transition: var(--transition);
+    font-family: inherit;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+}
+
+.form-input::placeholder {
+    color: #9ca3af;
+}
+
+.form-textarea {
+    resize: vertical;
+    font-family: inherit;
+}
+
+.form-hint {
+    font-size: 12px;
+    color: var(--text-secondary);
+    margin-top: 0.25rem;
+}
+
+/* Checkbox */
+.form-checkbox {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.form-checkbox input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: var(--primary-color);
+}
+
+.form-checkbox label {
+    font-size: 14px;
+    color: var(--text-primary);
+    cursor: pointer;
+    margin: 0;
+}
+
+/* Button Full Width */
+.btn-full {
+    width: 100%;
+}
+
+/* ========== AUTH DIVIDER ========== */
+.auth-divider {
+    text-align: center;
+    margin: 1.5rem 0;
+    font-size: 13px;
+    color: var(--text-secondary);
+}
+
+/* ========== AUTH FOOTER ========== */
+.auth-footer {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.auth-footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.auth-footer a:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+}
+
+/* ========== AUTH ILLUSTRATION ========== */
+.auth-illustration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.illustration-box {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, var(--primary-light), #d1fae5);
+    border-radius: 12px;
+    border: 2px solid var(--primary-color);
+}
+
+.illustration-icon {
+    font-size: 80px;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.illustration-box h2 {
+    font-size: 28px;
+    color: var(--primary-dark);
+    margin-bottom: 0.5rem;
+}
+
+.illustration-box p {
+    color: var(--text-secondary);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+    .auth-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .auth-card {
+        padding: 2rem;
+    }
+
+    .auth-header h1 {
+        font-size: 24px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .auth-illustration {
+        min-height: 250px;
+    }
+
+    .illustration-box {
+        padding: 2rem;
+    }
+
+    .illustration-icon {
+        font-size: 60px;
+    }
+
+    .illustration-box h2 {
+        font-size: 22px;
+    }
+
+    .auth-section {
+        padding: 2rem 20px;
+        min-height: auto;
+    }
+}

@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dry Food - Online Supermarket</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🛒</span>
+                <span class="logo-text">FreshMart</span>
+            </div>
+
+            <!-- Hamburger Menu -->
+            <input type="checkbox" id="hamburger" class="hamburger-checkbox">
+            <label for="hamburger" class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Navigation Links -->
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li class="nav-dropdown">
+                    <span class="nav-link" style="display: flex; align-items: center;">Categories
+                        <i data-lucide="chevron-down"></i></span>
+                    <div class="dropdown-menu">
+                        <a href="dryFood.html">Dry Food</a>
+                        <a href="#beverages">Beverages</a>
+                        <a href="nonFood.html">Non Food</a>
+                        <a href="freshFood.html">Fresh Food</a>
+                        <a href="#electric-appliances">Electric Appliances</a>
+                    </div>
+                </li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav_left">
+                <img class="language" src="https://img.icons8.com/?size=100&id=15534&format=png&color=000000" alt="">
+                <div class="user">
+                    <li><a href="cart.html"> <i class="icon_add_cart" data-lucide="handbag"></i></a></li>
+                    <a href="login.html"><img src="IMG/user_logo/user.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <img style="filter: blur(3px); width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: -1;"
+            src="https://static.vecteezy.com/system/resources/thumbnails/065/817/272/small/colorful-display-of-jars-and-containers-filled-with-various-spices-and-ingredients-in-a-market-photo.jpg"
+            alt="">
+        <div class="hero-content">
+            <h1 style="font-size: 100px; letter-spacing: 10px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">DRY FOOD
+            </h1>
+            <p>Your one-stop online supermarket for quality groceries</p>
+            <a href="#products" class="btn btn-primary">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Carousel open -->
+    <!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://i.pinimg.com/736x/a2/fe/21/a2fe21da9ce7d1698f5b48cdb506c853.jpg" class="d-block w-100"
+                    alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.pinimg.com/736x/a2/fe/21/a2fe21da9ce7d1698f5b48cdb506c853.jpg" class="d-block w-100"
+                    alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.pinimg.com/736x/a2/fe/21/a2fe21da9ce7d1698f5b48cdb506c853.jpg" class="d-block w-100"
+                    alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div> -->
+    <!-- Carousel close -->
+
+
+    <!-- Categories Section -->
+    <section id="products" class="categories">
+        <div class="container">
+            <h2>Shop by Category</h2>
+            <div class="category-grid">
+                <div style="background-color: #1e5631;" class="category-card" id="dry-food">
+                    <div class="category-icon">🌾</div>
+                    <h3 style="color: white;">Dry Food</h3>
+                    <p style="color: white;">Rice, Pasta, Cereals & More</p>
+                </div>
+                <a style="text-decoration: none;" href="nonFood.html">
+                    <div class="category-card" id="non-food">
+                        <div class="category-icon">🧴</div>
+                        <h3>Non Food</h3>
+                        <p>Household & Personal Care</p>
+                    </div>
+                </a>
+                <a style="text-decoration: none;" href="freshFood.html">
+                    <div class="category-card" id="fresh-food">
+                        <div class="category-icon">🥬</div>
+                        <h3>Fresh Food</h3>
+                        <p>Fresh Vegetables & Fruits</p>
+                    </div>
+                </a>
+                <div class="category-card" id="beverages">
+                    <div class="category-icon">🍹</div>
+                    <h3>Beverages</h3>
+                    <p>Juices, Soft Drinks & More</p>
+                </div>
+                <div class="category-card" id="electric-appliances">
+                    <div class="category-icon">🔌</div>
+                    <h3>Electric</h3>
+                    <p>Kitchen & Home Appliances</p>
+                </div>
+                                <div class="category-card" id="electric-appliances">
+                    <div class="category-icon">🔌</div>
+                    <h3>Butchery</h3>
+                    <p>Kitchen & Home Appliances</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <h2>Products Dryfood</h2>
+
+            <!-- Dry Food Products -->
+            <div class="category-section">
+                <h3 class="category-title">🌾 Dry Food</h3>
+                <div class="products-grid">
+
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/1.jpeg" alt="">
+                        <h4>NGOV HENG CHILLI SAUCE 500ML*6</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/2.jpeg" alt="">
+                        <h4>NH THREE SEA FISH SAUCE 5LX3</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/3.jpeg" alt="">
+                        <h4>NH THREE SEA FISH SAUCE 730MLX6</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/4.jpeg" alt="">
+                        <h4>NGOV HENG VINEGAR 450mlx6</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/5.jpeg" alt="">
+                        <h4>THNOT DRIED MANGO PREMUIM 1*200G</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/6.jpeg" alt="">
+                        <h4>THNOT MANGO ROLL BANANA 1*200G</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/6.jpeg" alt="">
+                        <h4>THNOT MANGO ROLL BANANA 1*200G</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/7.jpeg" alt="">
+                        <h4>THNOT MANGO ROLL ORIGINAL 1*200G</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/8.jpeg" alt="">
+                        <h4>THNOT MANGO ROLL MORINGA 1*200G</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/9.jpeg" alt="">
+                        <h4>THNOT MANGO ROLL-GINGER 1*200G</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/10.jpeg" alt="">
+                        <h4>ANGKOR SKY CAN BEER 330MLX24</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/11.jpeg" alt="">
+                        <h4>KOFI SHAKE'N ICE 3 IN 1 LOW SUGAR 34G*15</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/12.jpeg" alt="">
+                        <h4>APERO BANANA DRIED NATURAL 1*120G</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/13.jpeg" alt="">
+                        <h4>BANA BANANA CHIP SPICY FLA 1*75G</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/14.jpeg" alt="">
+                        <h4>SETO SWEET POTATO CHIP SPICY 1*75G</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/15.jpeg" alt="">
+                        <h4>TATO TARO CHIP SPICY FLA 1*75G</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/16.jpeg" alt="">
+                        <h4>KOFI SHAKE'N ICE MATCHA GREEN TEA 35G*15</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/17.jpeg" alt="">
+                        <h4>COMFY NAPKIN 200S 1PLY BROWN X1</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/18.jpeg" alt="">
+                        <h4>79 JUMBO ROLL BLUE 2PLY 600GX1</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/19.jpeg" alt="">
+                        <h4>Comfy Pop Up Tissue Long Pink 3ply 150 pcs x 5</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/20.jpeg" alt="">
+                        <h4>ABC SMOOTH STOUT BEER 330MLX24</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/21.jpeg" alt="">
+                        <h4>MyungGa Chilli Powder Jar 225G*1</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/22.jpeg" alt="">
+                        <h4>HEINEKEN 0% ACL BEER CAN 330MLX6</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/23.jpeg" alt="">
+                        <h4>Primo Tissue Purple 4ply 520sheet x 3</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/24.jpeg" alt="">
+                        <h4>COMFY NAPKIN 200S 1PLY WHITE X1</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/25.jpeg" alt="">
+                        <h4>Primo Purple tissue 4PLY 480 pcs x 8</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/26.jpeg" alt="">
+                        <h4>Comfy Pop Up Tissue Long D-Dots 2PLY 180 pcs x 5</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/27.jpeg" alt="">
+                        <h4>Comfy pop up tissue long blue 3ply 100 pcs x 10</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/28.jpeg" alt="">
+                        <h4>ABC SINGAPOR BEER CAN KH 330MLX24</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/29.jpeg" alt="">
+                        <h4>MEE CHIET CHICKEN EGG 75GX24</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/30.jpeg" alt="">
+                        <h4>CAMBODIA LITE BEER CAN 330MLX24</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/31.jpeg" alt="">
+                        <h4>BEST COWS CONDENSED MILK 380G*6</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/32.jpeg" alt="">
+                        <h4>BINGO CHILLI CRUSHED 100GX1</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/33.jpeg" alt="">
+                        <h4>BINGO CHILLI CRUSHED 250GX1</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/34.jpeg" alt="">
+                        <h4>BOOSTRONG POWER PLUS 250ML*24</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/35.jpeg" alt="">
+                        <h4>Boran Apsara Coffee (Bean) 500G*1</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/36.jpeg" alt="">
+                        <h4>Brown Sugar 1g*100</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/37.jpeg" alt="">
+                        <h4>C.A.P Himalayan Salt 1Kg x 1</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/38.jpeg" alt="">
+                        <h4>C.A.P Himalayan White Salt 1Kg*1</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/_dryfood/39.jpeg" alt="">
+                        <h4>C.A.P Hilmalayan Pink Salt Coarse 1kg x 1</h4>
+                        <div class="product-price">$5.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Section (Hidden by default) -->
+    <section id="cart" class="cart-section" style="display:none;">
+        <div class="container">
+            <div class="cart-header">
+                <h2>Shopping Cart</h2>
+                <a href="#home" class="btn btn-secondary">Continue Shopping</a>
+            </div>
+            <div class="cart-content">
+                <p style="text-align: center; color: #666;">Your cart is empty</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>FreshMart is your trusted online supermarket delivering quality groceries to your doorstep.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="login.html">Account</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: info@freshmart.com</p>
+                <p>Phone: 1-800-FRESH-99</p>
+                <p>Hours: Mon-Sun 8AM-10PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 FreshMart. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

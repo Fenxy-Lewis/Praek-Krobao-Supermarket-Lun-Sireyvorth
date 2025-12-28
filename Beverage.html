@@ -1,0 +1,1616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FresFood - Online Supermarket</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🛒</span>
+                <span class="logo-text">FreshMart</span>
+            </div>
+
+            <!-- Hamburger Menu -->
+            <input type="checkbox" id="hamburger" class="hamburger-checkbox">
+            <label for="hamburger" class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Navigation Links -->
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li class="nav-dropdown">
+                    <span class="nav-link" style="display: flex; align-items: center;">Categories
+                        <i data-lucide="chevron-down"></i></span>
+                    <div class="dropdown-menu">
+                        <a href="dryFood.html">Dry Food</a>
+                        <a href="">Beverages</a>
+                        <a href="nonFood.html">Non Food</a>
+                        <a href="freshFood.html">Fresh Food</a>
+                        <a href="#electric-appliances">Electric Appliances</a>
+                    </div>
+                </li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav_left">
+                <img class="language" src="https://img.icons8.com/?size=100&id=15534&format=png&color=000000" alt="">
+                <div class="user">
+                    <li><a href="cart.html"> <i class="icon_add_cart" data-lucide="handbag"></i></a></li>
+                    <a href="login.html"><img src="IMG/user_logo/user.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <img src="https://media.istockphoto.com/id/487652607/photo/summer-drink.jpg?s=612x612&w=0&k=20&c=3OojNgLf04YPn9LLIiPdnQrB39Gg26SGeu32a17Epfc="
+            alt="">
+        <div class="hero-content">
+            <h1>BEVERAGES
+            </h1>
+            <p>Your one-stop online supermarket for quality groceries</p>
+            <a href="#products" class="btn btn-primary">Shop Now</a>
+        </div>
+    </section>
+    <!-- Categories Section -->
+    <section id="products" class="categories">
+        <div class="container">
+            <h2>Shop by Category</h2>
+            <div class="category-grid">
+                <a style="text-decoration: none;" href="freshFood.html">
+                    <div style="background-color: #1e5631;" class="category-card" id="fresh-food">
+                        <div class="category-icon">🍹</div>
+                        <h3 style="color: white;">Beverages</h3>
+                        <p style="color: white;">Juices, Soft Drinks & More</p>
+                    </div>
+                </a>
+                <a style="text-decoration: none;" href="dryFood.html">
+                    <div class="category-card" id="dry-food">
+                        <div class="category-icon">🌾</div>
+                        <h3>Dry Food</h3>
+                        <p>Rice, Pasta, Cereals & More</p>
+                    </div>
+                </a>
+                <a style="text-decoration: none;" href="nonFood.html">
+                    <div class="category-card" id="non-food">
+                        <div class="category-icon">🧴</div>
+                        <h3>Non Food</h3>
+                        <p>Household & Personal Care</p>
+                    </div>
+                </a>
+                <div class="category-card" id="beverages">
+                    <div class="category-icon">🥬</div>
+                    <h3>Fresh Food</h3>
+                    <p>Fresh Vegetables & Fruits</p>
+                </div>
+                <div class="category-card" id="electric-appliances">
+                    <div class="category-icon">🔌</div>
+                    <h3>Electric</h3>
+                    <p>Kitchen & Home Appliances</p>
+                </div>
+                <div class="category-card" id="electric-appliances">
+                    <div class="category-icon">🔌</div>
+                    <h3>Butchery</h3>
+                    <p>Kitchen & Home Appliances</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <div class="category_container">
+                <div class="header_ruler">
+                    <hr>
+                    <h2>BEVERAGES</h2>
+                    <hr>
+                </div>
+                <div class="fresh_food_category">
+                    <ul>
+                        <li><a href="#beer">Beer-Wine</a></li>
+                        <li><a href="#water">Water</a></li>
+                        <li><a href="#milk">Milk</a></li>
+                        <li><a href="#healthy">Essence and Healthy Drinks</a></li>
+                        <li><a href="#caffee">Caffee</a></li>
+                        <li><a href="#juices">Juices</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Non Food Products -->
+            <div id="beer">
+                <br><br><br><br><br><br><br><br>
+            </div>
+            <div class="category-section">
+                <h3 class="category-title"> <img
+                        src="https://img.icons8.com/?size=100&id=zFSgaWKLkFJM&format=png&color=000000" alt="">Beer Wine
+                    Items </h3>
+                <div class="products-grid">
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/1.png" alt="">
+                        <h4>1792 SMALL BATCH BOURBON 75CL x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/2.png" alt="">
+                        <h4>1847 MOSCATO 75CL x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/3.png" alt="">
+                        <h4>1847 CHATEAU YALDARA MOSCATO 75CL x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/4.png" alt="">
+                        <h4>2022 KANGAROO RIDGE MERLOT 75CL x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/5.png" alt="">
+                        <h4>818 TEQUILA ANEJO 75CL x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/6.png" alt="">
+                        <h4>818 TEQUILA BLANCO 75CL x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/7.png" alt="">
+                        <h4>818 TEQUILA REPOSADO 75CL x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/8.png" alt="">
+                        <h4>ABC BEER CAN 330ML x 24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/9.png" alt="">
+                        <h4>ABC BEER PINT 330ML x 24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/10.png" alt="">
+                        <h4>ABC SINGAPORE BEER CAN KH 330ML x 24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/11.png" alt="">
+                        <h4>ABC SMOOTH STOUT BEER 330ML x 24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/12.png" alt="">
+                        <h4>ABSOLUT VODKA BLUE 70CL x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/13.png" alt="">
+                        <h4>AMADOR MEDRANO TEMPRANILLO 75CL x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/14.png" alt="">
+                        <h4>ANCHOR BEER CAN NON NCP 330ML x 24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/15.png" alt="">
+                        <h4>ANCHOR BEER CAN PRIZE 330ML x 24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/16.png" alt="">
+                        <h4>ANCHOR BEER PINT 330ML x 24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/17.png" alt="">
+                        <h4>ARRAN 18 YEARS SINGLE MALT 70CL x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/18.png" alt="">
+                        <h4>ARRAN BARREL RESERVE 43% 70CL x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/19.png" alt="">
+                        <h4>AUCHENTOSHAN 12 YEARS 70CL x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/20.png" alt="">
+                        <h4>AUCHENTOSHAN 21 YEARS 70CL x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+            <div id="water">
+                <br><br><br><br><br><br><br><br>
+            </div>
+            <div class="category-section">
+                <h3 class="category-title"> <img
+                        src="https://img.icons8.com/?size=100&id=cpa3RyNsYJkU&format=png&color=000000" alt=""> Water's
+                    Items </h3>
+                <div class="products-grid">
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/1.png" alt="">
+                        <h4>ANGKOR PURO DR. WATER 500ML 1X24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/2.png" alt="">
+                        <h4>ANGKOR PURO DRINKING WATER 1500ML 1X12</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/3.png" alt="">
+                        <h4>ANGKOR PURO DRINKING WATER 350ML 1X24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/4.png" alt="">
+                        <h4>ARO NATURAL WATER 350ML x 24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/5.png" alt="">
+                        <h4>ARO NATURAL WATER 500ML x 24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/6.png" alt="">
+                        <h4>CAMBODIA DRINKING WATER 1.5L x 12</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/7.png" alt="">
+                        <h4>CAMBODIA DRINKING WATER 500ML x 24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/8.png" alt="">
+                        <h4>COLEE DRINKING WATER 1500ML x 12</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/9.png" alt="">
+                        <h4>COLEE DRINKING WATER 300ML x 24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/10.png" alt="">
+                        <h4>COLEE DRINKING WATER 500ML x 24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/11.png" alt="">
+                        <h4>CRYSTAL DRINKING WATER 600ML x 12</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/12.png" alt="">
+                        <h4>DASANI DRINKING WATER 1.5L x 6</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/13.png" alt="">
+                        <h4>DASANI DRINKING WATER 500ML 1X24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/14.png" alt="">
+                        <h4>DASANI DRINKING WATER 350ML 1X24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/15.png" alt="">
+                        <h4>EAU KULEN MINERAL WATER 0.5L 1X24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/16.png" alt="">
+                        <h4>EAU KULEN MINERAL WATER 1.5L 1X12</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/17.png" alt="">
+                        <h4>ELAN MINERAL DRINKING WATER 500ML x 24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/18.png" alt="">
+                        <h4>ELAN MINERAL WATER 300ML x 24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/19.png" alt="">
+                        <h4>HI-TECH DRINKING WATER 1.5L x 12</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/20.png" alt="">
+                        <h4>HI-TECH DRINKING WATER 250ML x 40</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="milk">
+                <br><br><br><br><br><br><br><br>
+            </div>
+            <div class="category-section">
+                <h3 class="category-title"> <img
+                        src="https://img.icons8.com/?size=100&id=cpa3RyNsYJkU&format=png&color=000000" alt=""> Milk's
+                    Items </h3>
+                <div class="products-grid">
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/1.png" alt="">
+                        <h4>ALMOND BREEZE ALMOND 946ML x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/2.png" alt="">
+                        <h4>ALMOND MILK CHOCOLATE 180ML x 3</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/3.png" alt="">
+                        <h4>ALMOND MILK ORIGINAL 180ML x 3</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/4.png" alt="">
+                        <h4>ALMOND MILK VANILLA 180ML x 3</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/5.png" alt="">
+                        <h4>ANGKOR FRESH MILK UNSWEETENED 1L x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/6.png" alt="">
+                        <h4>ANGKOR MILK FINO SWEETENED 220ML x 48</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/7.png" alt="">
+                        <h4>ANGKOR UHT UNSWEETENED MILK 220ML x 48</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/8.png" alt="">
+                        <h4>ARO SWEETENED CONDENSED NON-DAIRY CREAMER 2KG x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/9.png" alt="">
+                        <h4>ANGKOR MILK SWEETENED 110ML x 48</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/10.png" alt="">
+                        <h4>ANGKOR MILK SWEETENED 180ML x 48</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/11.png" alt="">
+                        <h4>BEAR BRAND STERILIZED MILK HIGH FOLATE 140ML x 12</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/12.png" alt="">
+                        <h4>BEAR BRAND STERILIZED MILK 140ML x 12</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/13.png" alt="">
+                        <h4>BEST COWS CONDENSED MILK 1,284G x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/14.png" alt="">
+                        <h4>BEAR BRAND STERILIZED LOW FAT MILK 140ML x 12</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/15.png" alt="">
+                        <h4>CARNATION SWEETENED CONDENSED NON-DAIRY CREAMER 2KG x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/16.png" alt="">
+                        <h4>COFFEE DREAMY POWDER 1000G x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/17.png" alt="">
+                        <h4>COWHEAD MILK PURE TWIST 1L x 12</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/18.png" alt="">
+                        <h4>COWHEAD PURE MILK 1L x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/19.png" alt="">
+                        <h4>DENA SOYMILK BLACK SESAME 180ML x 48</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/20.png" alt="">
+                        <h4>DUGRO KID UHT MILK HONEY 180ML x 4</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div id="healthy">
+                <br><br><br><br><br><br><br><br>
+            </div>
+            <div class="category-section">
+                <h3 class="category-title"> <img
+                        src="https://img.icons8.com/?size=100&id=cpa3RyNsYJkU&format=png&color=000000" alt=""> Healthy
+                    Drink's
+                    Items </h3>
+                <div class="products-grid">
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/1.png" alt="">
+                        <h4>Aquarius Sleek 330ML 1X24C</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/2.png" alt="">
+                        <h4>BACCHUS ENERGY DRINK 250ML 1X24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/3.png" alt="">
+                        <h4>BLUE LYCHEE FLAVOR 500ML x 6</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/4.png" alt="">
+                        <h4>BLUE PEACH FLAVOR 500ML x 6</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/5.png" alt="">
+                        <h4>BRAND HAMPER A</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/6.png" alt="">
+                        <h4>BRAND HAMPER C</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/7.png" alt="">
+                        <h4>BRANDS BIRD NEST XYLITOL 70ML x 6</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/8.png" alt="">
+                        <h4>BRANDS HAMPER L</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/9.png" alt="">
+                        <h4>BWELL BIRD NEST DRINK SUGAR FREE 180ML x 6</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/10.png" alt="">
+                        <h4>BWELL BIRD NEST DRINK 180ML x 6</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/11.png" alt="">
+                        <h4>BACCHUS SUGAR FREE ENERGY DRINK 250ML x 24</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/12.png" alt="">
+                        <h4>BELL BIRD'S NEST BEVERAGE 110ML x 6</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/13.png" alt="">
+                        <h4>BRAND'S BIRD'S NEST CLASSIC WITH ROCK SUGAR 70ML x 6 BOTTLES</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/14.png" alt="">
+                        <h4>BRAND'S ESSENCE OF CHICKEN 70ML x 12</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/15.png" alt="">
+                        <h4>BWELL BIRD'S NEST SUGAR FREE 250ML x 6</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/16.png" alt="">
+                        <h4>BWELL BIRD'S NEST 250ML x 6</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="caffee">
+                <br><br><br><br><br><br><br><br>
+            </div>
+            <div class="category-section">
+                <h3 class="category-title"> <img
+                        src="https://img.icons8.com/?size=100&id=cpa3RyNsYJkU&format=png&color=000000" alt=""> Caffee's
+                    Items </h3>
+                <div class="products-grid">
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/1.png" alt="">
+                        <h4>KOFI SHAKE'N ICE 3 IN 1 LOW SUGAR 34G*15</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/2.png" alt="">
+                        <h4>KOFI SHAKE'N ICE MATCHA GREEN TEA 35G*15</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/3.png" alt="">
+                        <h4>CAFÉ PHO DEN DA COFFEE 16G X 35'S</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/4.png" alt="">
+                        <h4>CAFÉ PHO DEN DA BOX 16G X 10'S</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/5.png" alt="">
+                        <h4>OLD TOWN COFFEE SALTED CARAMEL 35G X 15</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/6.png" alt="">
+                        <h4>SUPER COFFEE 3 IN 1 ESPRESSO 17G X 100</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/7.png" alt="">
+                        <h4>GOOD DAY 3 IN 1 INSTANT COFFEE HAZELNUT 20G*30</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/8.png" alt="">
+                        <h4>GOOD DAY INSTANT COFFEE ORIGINAL 20G*30</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/9.png" alt="">
+                        <h4>NESCAFE B&B LESS SUGAR 50% 15G X 27S</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/10.png" alt="">
+                        <h4>MACCOFFEE PHO INSTANT ICE COFFEE 24G*30</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/11.png" alt="">
+                        <h4>SUPER COFFEE LESS SUGAR 15G X 25</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/12.png" alt="">
+                        <h4>NESCAFE B&B ESPRESSO ROAST 15.1G X 60S</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/13.png" alt="">
+                        <h4>BONCAFE ROASTED ICE COFFEE BLEND BEAN 500G X 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/14.png" alt="">
+                        <h4>MACCOFFEE PHO ICE COFFEE 24G*10</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/15.png" alt="">
+                        <h4>STARBUCKS MOCHA READY TO DRINK 281ML*1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/16.png" alt="">
+                        <h4>STARBUCKS FRAPPUCCINO READY TO DRINK COFFEE 281ML*1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="juices">
+                <br><br><br><br><br><br><br><br>
+            </div>
+            <div class="category-section">
+                <h3 class="category-title"> <img
+                        src="https://img.icons8.com/?size=100&id=cpa3RyNsYJkU&format=png&color=000000" alt=""> Juice Drinking's
+                    Items </h3>
+                <div class="products-grid">
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/1.png" alt="">
+                        <h4>Tree Top Apple Juice 100% 300ML x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/2.png" alt="">
+                        <h4>Langer Apple Juice 946ML x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/3.png" alt="">
+                        <h4>Langer Grape Juice 946ML x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/4.png" alt="">
+                        <h4>Langer Pomegranate Juice 946ML x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/5.png" alt="">
+                        <h4>Langer Mongo Mango Juice 946ML x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/6.png" alt="">
+                        <h4>Langer Fruit Punch 946ML x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/7.png" alt="">
+                        <h4>WJ Aloe Original 240ML x 6</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/8.png" alt="">
+                        <h4>Tree Top Apple Juice 100% 2L x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/9.png" alt="">
+                        <h4>Tipco 100% Tangerine Juice 1000ML x 3</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/10.png" alt="">
+                        <h4>Tipco 100% Red Grape Juice 1000ML x 3</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/11.png" alt="">
+                        <h4>Unif 100% Carrot Mixed Juice 1000ML x 3</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/12.png" alt="">
+                        <h4>Tipco 100% Pomegranate Juice 1000ML x 3</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/13.png" alt="">
+                        <h4>Tipco 100% Sithong Orange Juice 1000ML x 3</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/14.png" alt="">
+                        <h4>Malee 100% Pineapple Juice 200ML x 6</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/15.png" alt="">
+                        <h4>Kokozo Pineapple Coco Juice 320ML x 6</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/16.png" alt="">
+                        <h4>Kokozo Grape Juice Coco 320ML x 6</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/17.png" alt="">
+                        <h4>Kokozo Strawberry Coco Juice 320ML x 6</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/18.png" alt="">
+                        <h4>Kokozo Lychee Juice Coco 320ML x 6</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/19.png" alt="">
+                        <h4>Kokozo Orange Juice Coco 320ML x 6</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/20.png" alt="">
+                        <h4>Malee Tropical Passion Fruit Juice 20% 1L x 3 Bottles</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Cart Section (Hidden by default) -->
+    <section id="cart" class="cart-section" style="display:none;">
+        <div class="container">
+            <div class="cart-header">
+                <h2>Shopping Cart</h2>
+                <a href="#home" class="btn btn-secondary">Continue Shopping</a>
+            </div>
+            <div class="cart-content">
+                <p style="text-align: center; color: #666;">Your cart is empty</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>FreshMart is your trusted online supermarket delivering quality groceries to your doorstep.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="login.html">Account</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: info@freshmart.com</p>
+                <p>Phone: 1-800-FRESH-99</p>
+                <p>Hours: Mon-Sun 8AM-10PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 FreshMart. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
