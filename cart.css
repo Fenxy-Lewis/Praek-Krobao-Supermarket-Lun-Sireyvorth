@@ -60,17 +60,17 @@
     background: var(--primary-light);
     border-radius: 8px;
 }
-
+.item-details {
+margin-left: 25px;
+}
 .item-details h3 {
     font-size: 16px;
     color: var(--text-primary);
-    margin-bottom: 0.25rem;
 }
 
 .item-desc {
     font-size: 13px;
     color: var(--text-secondary);
-    margin-bottom: 0.5rem;
 }
 
 .item-price {
@@ -140,6 +140,10 @@
     cursor: pointer;
     font-size: 18px;
     transition: var(--transition);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
 }
 
 .btn-remove:hover {

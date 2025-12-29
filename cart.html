@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +8,28 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="cart.css">
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <a href="index.html" class="nav-logo">
-                <img class="logo-icon" src="https://img.icons8.com/?size=100&id=ezDTR0SCQIf2&format=png&color=000000" alt="">
+                <img class="logo-icon" src="https://img.icons8.com/?size=100&id=ezDTR0SCQIf2&format=png&color=000000"
+                    alt="">
                 <span class="logo-text">FreshMart</span>
             </a>
-            
+
             <input type="checkbox" id="hamburger" class="hamburger-checkbox">
             <label for="hamburger" class="hamburger-menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </label>
-            
+
             <ul class="nav-menu">
                 <li><a href="index.html" class="nav-link">Home</a></li>
                 <li><a href="index.html#products" class="nav-link">Products</a></li>
-                <li><a href="cart.html" class="nav-link cart-link">🛍️ Cart</a></li>
+                <li><a href="cart.html" class="nav-link cart-link">Cart</a></li>
                 <li><a href="login.html" class="nav-link">Login</a></li>
             </ul>
         </div>
@@ -44,7 +47,7 @@
                 <!-- Cart Items -->
                 <div class="cart-items">
                     <div class="cart-item">
-                        <div class="item-image">🍚</div>
+                        <img class="item-image" src="./IMG/Local_Product/_freshfood/Vegetable/16.png" alt="">
                         <div class="item-details">
                             <h3>Basmati Rice</h3>
                             <p class="item-desc">1kg Premium Quality</p>
@@ -58,11 +61,11 @@
                         <div class="item-total">
                             <p class="total-price">$11.98</p>
                         </div>
-                        <button class="btn-remove">✕</button>
+                        <button class="btn-remove"><i data-lucide="trash"></i></button>
                     </div>
 
                     <div class="cart-item">
-                        <div class="item-image">🥬</div>
+                        <img class="item-image" src="./IMG/Local_Product/_freshfood/Vegetable/5.png" alt="">
                         <div class="item-details">
                             <h3>Fresh Lettuce</h3>
                             <p class="item-desc">1 head - Crispy</p>
@@ -76,11 +79,11 @@
                         <div class="item-total">
                             <p class="total-price">$2.49</p>
                         </div>
-                        <button class="btn-remove">✕</button>
+                        <button class="btn-remove"><i data-lucide="trash"></i></button>
                     </div>
 
                     <div class="cart-item">
-                        <div class="item-image">🧼</div>
+                        <img class="item-image" src="./IMG/Local_Product/_freshfood/Vegetable/18.png" alt="">
                         <div class="item-details">
                             <h3>Hand Soap</h3>
                             <p class="item-desc">250ml Liquid</p>
@@ -94,24 +97,24 @@
                         <div class="item-total">
                             <p class="total-price">$8.97</p>
                         </div>
-                        <button class="btn-remove">✕</button>
+                        <button class="btn-remove"><i data-lucide="trash"></i></button>
                     </div>
                 </div>
 
                 <!-- Order Summary -->
                 <div class="order-summary">
                     <h2>Order Summary</h2>
-                    
+
                     <div class="summary-row">
                         <span>Subtotal:</span>
                         <span>$23.44</span>
                     </div>
-                    
+
                     <div class="summary-row">
                         <span>Shipping:</span>
                         <span>$4.99</span>
                     </div>
-                    
+
                     <div class="summary-row">
                         <span>Tax:</span>
                         <span>$2.27</span>
@@ -128,7 +131,7 @@
                     </div>
 
                     <a href="checkout.html" class="btn btn-primary btn-full">Proceed to Checkout</a>
-                    
+
                     <button class="btn btn-secondary btn-full" style="margin-top: 1rem;">Save for Later</button>
                 </div>
             </div>
@@ -171,5 +174,12 @@
             <p>&copy; 2025 FreshMart. All rights reserved.</p>
         </div>
     </footer>
+
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
+
 </html>

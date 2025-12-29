@@ -52,7 +52,7 @@ body {
   /* background-color: var(--primary-color); */
   background-color: #1e5631;
   /* background-color: var(--primary-dark); */
-  padding: 4px 0;
+  padding: 10px 0;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -81,7 +81,7 @@ body {
 
 .logo-icon{
 /* font-size: 35px; */
-width: 65px;
+width: 55px;
 height: auto;
 }
 .nav_left {
@@ -90,7 +90,7 @@ height: auto;
   align-items: center;
 }
 .language {
-  width: 50px;
+  width: 40px;
   height: auto;
   margin-right: 10px;
 }
@@ -161,7 +161,12 @@ height: auto;
   list-style: none;
   gap: 2rem;
   align-items: center;
+  margin-right: 30px;
 }
+
+  .nav-menu li{
+    margin-right: -35px;
+  }
 
 .nav-link {
   color: white;
@@ -199,9 +204,8 @@ height: auto;
   position: absolute;
   top: 33px;
   left: 0;
-  background: white;
+  background: var(--primary-color);
   border-radius: 5px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   min-width: 200px;
   padding: 0.5rem 0;
   margin-top: 0.5rem;
@@ -211,7 +215,7 @@ height: auto;
 .dropdown-menu a {
   display: block;
   padding: 0.75rem 1.5rem;
-  color: var(--text-primary);
+  color: white;
   text-decoration: none;
   transition: var(--transition);
   white-space: nowrap;
@@ -624,6 +628,7 @@ height: auto;
 }
 
 .category-title {
+  width: 100%;
   font-size: 24px;
   color: var(--text-primary);
   margin-bottom: 2rem;
@@ -649,7 +654,7 @@ height: auto;
 .product-card {
   height: 360px;
   background: white;
-  border-radius: 18px;
+  border-radius: 12px;
   padding: 1.5rem;
   text-align: center;
   transition: var(--transition);
@@ -717,9 +722,9 @@ height: auto;
 
 .product-price {
   height: 5px;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
-  color: var(--primary-color);
+  color: var(--error-color);
   margin-top: 16px;
   /* margin-bottom: 1rem; */
 }
@@ -730,9 +735,12 @@ height: auto;
 
 @media (max-width: 768px) {
   .products-grid {
-    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    grid-template-columns: repeat(2, minmax(155px, 1fr));
     gap: 1rem;
   }
+  .products > .container > h2 {
+  font-size: 28px;
+}
   .product-card .btn-add {
     margin-top: 35px;
     padding: 4px 0px;
@@ -768,8 +776,7 @@ height: auto;
 
   .product-card {
     padding: 1rem;
-    height: 255px;
-    border-radius: 5px;
+    height: 260px;
   }
 
   .product-image {
@@ -778,7 +785,7 @@ height: auto;
     height: 100px;
   }
   .product-price {
-    font-size: 14px;
+    font-size: 18px;
   }
   .btn-add {
     background-color: var(--primary-color);

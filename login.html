@@ -11,10 +11,48 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="nav-logo">
-                <img class="logo-icon" src="https://img.icons8.com/?size=100&id=ezDTR0SCQIf2&format=png&color=000000" alt="">
+            <div class="nav-logo">
+                <img class="logo-icon" src="https://img.icons8.com/?size=100&id=ezDTR0SCQIf2&format=png&color=000000"
+                    alt="">
                 <span class="logo-text">FreshMart</span>
-            </a>
+            </div>
+
+            <!-- Hamburger Menu -->
+            <input type="checkbox" id="hamburger" class="hamburger-checkbox">
+            <label for="hamburger" class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Navigation Links -->
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li class="nav-dropdown">
+                    <span class="nav-link" style="display: flex; align-items: center;">Categories
+                        <i data-lucide="chevron-down"></i></span>
+                    <div class="dropdown-menu">
+                        <a href="dryFood.html">Dry Food</a>
+                        <a href="Beverage.html">Beverages</a>
+                        <a href="nonFood.html">Non Food</a>
+                        <a href="freshFood.html">Fresh Food</a>
+                        <a href="butchery.html">Butchery</a>
+                        <a href="electronic.html">Electric Appliances</a>
+                    </div>
+                </li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="cart.html" class="nav-link">Cart</a></li>
+                <li><a href="login.html" class="nav-link">Account</a></li>
+            </ul>
+
+            <div class="nav_left">
+                <img class="language" src="https://img.icons8.com/?size=100&id=15534&format=png&color=000000" alt="">
+                <div class="user">
+                    <li><a href="cart.html"> <i class="icon_add_cart" data-lucide="handbag"></i></a></li>
+                    <a href="login.html"><img src="IMG/user_logo/user.png" alt=""></a>
+                </div>
+            </div>
         </div>
     </nav>
 
@@ -58,13 +96,15 @@
                     </div>
 
                     <button type="submit" class="btn btn-primary btn-full">Sign In</button>
+                    <p style="text-align: center; margin: -20px; font-weight: 500;">or</p>
+                    <button type="submit" style="background-color:#34b7fd; color: white;" class="btn_telegram"><img class="img_telegram_login" src="https://img.icons8.com/?size=100&id=yEmPT1iidhE0&format=png&color=000000" alt="">Login with Telegram</button>
                 </form>
 
                 <div class="auth-divider">
                     <span>Don't have an account?</span>
                 </div>
 
-                <a href="signup.html" class="btn btn-secondary btn-full">Create Account</a>
+                <a href="signup.html" class="btn btn-secondary btn-full" style="background-color: #1e5631;">Create Account</a>
 
                 <div class="auth-footer">
                     <a href="#">Forgot password?</a>
@@ -72,13 +112,13 @@
             </div>
 
             <!-- Illustration -->
-            <div class="auth-illustration">
+            <!-- <div class="auth-illustration">
                 <div class="illustration-box">
                     <div class="illustration-icon">🛒</div>
                     <h2>FreshMart</h2>
                     <p>Your online supermarket for fresh groceries delivered to your door</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -88,5 +128,16 @@
             <p>&copy; 2025 FreshMart. All rights reserved.</p>
         </div>
     </footer>
+
+
+
+        <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

@@ -7,14 +7,28 @@
     align-items: center;
     justify-content: center;
 }
+.btn_telegram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.img_telegram_login{
+    width: 25px;
+    margin-right: 10px;
+}
 
 .auth-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 3rem;
-    max-width: 900px;
+    max-width: 430px;
     width: 100%;
     align-items: center;
+    justify-content: center;
 }
 
 .auth-card {
