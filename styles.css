@@ -51,7 +51,8 @@ body {
 .navbar {
   /* background-color: var(--primary-color); */
   background-color: #1e5631;
-  padding: 0.5rem 0;
+  /* background-color: var(--primary-dark); */
+  padding: 4px 0;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -78,8 +79,10 @@ body {
   text-decoration: none;
 }
 
-.logo-icon {
-  font-size: 32px;
+.logo-icon{
+/* font-size: 35px; */
+width: 65px;
+height: auto;
 }
 .nav_left {
   display: flex;
@@ -231,6 +234,11 @@ body {
     position: absolute;
     right: 30px;
   }
+  .logo-icon{
+/* font-size: 35px; */
+width: 45px;
+height: auto;
+}
   .language {
     width: 40px;
     height: auto;
@@ -510,7 +518,7 @@ body {
   width: 230px;
   height: 250px;
   background: white;
-  /* border-radius: 5px; */
+  border-radius: 18px;
   padding: 2rem;
   text-align: center;
   cursor: pointer;
@@ -641,7 +649,7 @@ body {
 .product-card {
   height: 360px;
   background: white;
-  /* border-radius: 0px; */
+  border-radius: 18px;
   padding: 1.5rem;
   text-align: center;
   transition: var(--transition);
@@ -760,7 +768,7 @@ body {
 
   .product-card {
     padding: 1rem;
-    height: 260px;
+    height: 255px;
     border-radius: 5px;
   }
 
@@ -851,7 +859,7 @@ body {
 }
 
 .footer-section h4 {
-  color: white;
+  color: var(--primary-dark);
   margin-bottom: 1rem;
   font-size: 16px;
   font-weight: 600;
@@ -879,7 +887,7 @@ body {
 }
 
 .footer-section a:hover {
-  color: var(--primary-color);
+  color: var(--primary-dark);
   padding-left: 4px;
 }
 

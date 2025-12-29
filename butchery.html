@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshMart - Online Supermarket</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img class="logo-icon" src="https://img.icons8.com/?size=100&id=ezDTR0SCQIf2&format=png&color=000000" alt="">
+                <span class="logo-text">FreshMart</span>
+            </div>
+
+            <!-- Hamburger Menu -->
+            <input type="checkbox" id="hamburger" class="hamburger-checkbox">
+            <label for="hamburger" class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Navigation Links -->
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li class="nav-dropdown">
+                    <span class="nav-link" style="display: flex; align-items: center;">Categories
+                        <i data-lucide="chevron-down"></i></span>
+                    <div class="dropdown-menu">
+                        <a href="dryFood.html">Dry Food</a>
+                        <a href="Beverage.html">Beverages</a>
+                        <a href="nonFood.html">Non Food</a>
+                        <a href="freshFood.html">Fresh Food</a>
+                        <a href="butchery.html">Butchery</a>
+                        <a href="electronic.html">Electric Appliances</a>
+                    </div>
+                </li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav_left">
+                <img class="language" src="https://img.icons8.com/?size=100&id=15534&format=png&color=000000" alt="">
+                <div class="user">
+                    <li><a href="cart.html"> <i class="icon_add_cart" data-lucide="handbag"></i></a></li>
+                    <a href="login.html"><img src="IMG/user_logo/user.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <img src="https://c8.alamy.com/comp/2XPM7D2/middle-aisle-lidl-middle-of-lidl-featuring-non-food-items-wales-uk-01-august-2024-2XPM7D2.jpg"
+            alt="">
+        <div class="hero-content">
+            <h1>BUTCHERY
+            </h1>
+            <p>Your one-stop online supermarket for quality groceries</p>
+            <a href="#products" class="btn btn-primary">Shop Now</a>
+        </div>
+    </section>
+    <!-- Categories Section -->
+    <section id="products" class="categories">
+        <div class="container">
+            <h2>Shop by Category</h2>
+            <div class="category-grid">
+                <a style="text-decoration: none;" href="butchery.html">
+                    <div style="background-color: #1e5631;" class="category-card" id="non-food">
+                        <div class="category-icon">🧴</div>
+                        <h3 style="color: white;">Butchery</h3>
+                        <p style="color: white;">Kitchen & Home Appliances</p>
+                    </div>
+                </a>
+                <a style="text-decoration: none;" href="dryFood.html">
+                    <div class="category-card" id="dry-food">
+                        <div class="category-icon">🌾</div>
+                        <h3>Dry Food</h3>
+                        <p>Rice, Pasta, Cereals & More</p>
+                    </div>
+                </a>
+                <a style="text-decoration: none;" href="freshFood.html">
+                    <div class="category-card" id="fresh-food">
+                        <div class="category-icon">🥬</div>
+                        <h3>Fresh Food</h3>
+                        <p>Fresh Vegetables & Fruits</p>
+                    </div>
+                </a>
+                <a style="text-decoration: none;" href="Beverage.html">
+                    <div class="category-card" id="beverages">
+                        <div class="category-icon">🍹</div>
+                        <h3>Beverages</h3>
+                        <p>Juices, Soft Drinks & More</p>
+                    </div>
+                </a>
+                <a style="text-decoration: none;" href="electronic.html">
+                    <div class="category-card" id="electric-appliances">
+                        <div class="category-icon">🔌</div>
+                        <h3>Electric</h3>
+                        <p>Kitchen & Home Appliances</p>
+                    </div>
+                </a>
+                <a style="text-decoration: none;" href="nonFood.html">
+                    <div class="category-card" id="electric-appliances">
+                        <div class="category-icon">🔌</div>
+                        <h3>Non Food</h3>
+                        <p>Household & Personal Care</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <h2>Butchery</h2>
+            <!-- Non Food Products -->
+            <div class="category-section">
+                <h3 class="category-title"> <img
+                        src="https://img.icons8.com/?size=100&id=VWzrGTDdZ3NA&format=png&color=000000" alt=""> Butchery
+                    Items</h3>
+                <div class="products-grid">
+
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/1.jpeg" alt="">
+                        <h4>BEEF ROUND MINCE (KG)</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/2.jpeg" alt="">
+                        <h4>AU FROZEN GRASS FEED OYSTER BLADE 250G</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/3.jpeg" alt="">
+                        <h4>AU FROZEN GRASS FEED BEEF CHUCK ROLL 250G</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/4.jpeg" alt="">
+                        <h4>MPRO FROZEN AUSTRALIAN CUBE ROLL BEEF 200G x 1</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/5.jpeg" alt="">
+                        <h4>MPRO AUSTRALIA CH A STRIPLOIN H/V 200G</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/6.jpeg" alt="">
+                        <h4>MPRO CH GRAIN-FED BEEF OYSTER BLADE H/V 400G</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/7.jpeg" alt="">
+                        <h4>MPRO AUSTRALIAN GRAIN-FED BEEF STRIPLOIN H/V 400G</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/8.jpeg" alt="">
+                        <h4>MPRO CH GRAIN-FED BEEF CUBE ROLL H/V 400G</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/9.jpeg" alt="">
+                        <h4>MPRO CH GRAIN-FED BEEF FLAP MEAT H/V 400G</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/10.jpeg" alt="">
+                        <h4>MPRO AUSTRALIA BEEF A CUBE ROLL H/V 400G</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/11.jpeg" alt="">
+                        <h4>MPRO AUSTRALIAN BEEF A STRIPLOIN H/V 400G</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/12.jpeg" alt="">
+                        <h4>MPRO AUSTRALIA BEEF A CUBE ROLL H/V 200G</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/13.jpeg" alt="">
+                        <h4>MIXED BEEF OFFAL 500G</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/14.jpeg" alt="">
+                        <h4>BEEF ROUND SLICE (KG)</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/15.jpeg" alt="">
+                        <h4>BEEF CHUCK ROLL CUT / SLICE (KG)</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-easing class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/16.jpeg" alt="">
+                        <h4>BEEF CHUCK ROLL MINCE (KG)</h4>
+                        <div class="product-price">$2.99</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>Add to Cart
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Section (Hidden by default) -->
+    <section id="cart" class="cart-section" style="display:none;">
+        <div class="container">
+            <div class="cart-header">
+                <h2>Shopping Cart</h2>
+                <a href="#home" class="btn btn-secondary">Continue Shopping</a>
+            </div>
+            <div class="cart-content">
+                <p style="text-align: center; color: #666;">Your cart is empty</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>FreshMart is your trusted online supermarket delivering quality groceries to your doorstep.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="login.html">Account</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: info@freshmart.com</p>
+                <p>Phone: 1-800-FRESH-99</p>
+                <p>Hours: Mon-Sun 8AM-10PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 FreshMart. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
