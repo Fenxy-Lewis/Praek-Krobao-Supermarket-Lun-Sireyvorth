@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshMart - Online Supermarket</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img class="logo-icon" src="./IMG/user_logo/user.png" alt="">
+                <div style="display: flex;justify-content: start;align-items: left;flex-direction: column;">
+                    <p class="logo-text">Sireyvorth</p>
+                    <p class="gmail_text">sereyvorthlun@gmail.com</p>
+                </div>
+            </div>
+
+            <!-- Hamburger Menu -->
+            <input type="checkbox" id="hamburger" class="hamburger-checkbox">
+            <label for="hamburger" class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Navigation Links -->
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li class="logo_mid">Psa Krobao</li>
+                <li class="nav-dropdown">
+                    <span class="nav-link" style="display: flex; align-items: center;">Categories
+                        <i data-lucide="chevron-down"></i></span>
+                    <div class="dropdown-menu">
+                        <a href="dryFood.html">Dry Food</a>
+                        <a href="Beverage.html">Beverages</a>
+                        <a href="nonFood.html">Non Food</a>
+                        <a href="freshFood.html">Fresh Food</a>
+                        <a href="butchery.html">Butchery</a>
+                        <a href="electronic.html">Electric Appliances</a>
+                    </div>
+                </li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="cart.html" class="nav-link cart_acc">Cart</a></li>
+                <li><a href="login.html" class="nav-link cart_acc">Account</a></li>
+            </ul>
+
+            <div class="nav_left">
+                <a href="contactkh.html"><img class="language"
+                        src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt=""></a>
+                <div class="user">
+                    <li><a href="cart.html"> <i class="icon_add_cart" data-lucide="handbag"></i></a></li>
+                    <!-- <a href="login.html"><img src="IMG/user_logo/user.png" alt=""></a> -->
+                    <a href="login.html"><img
+                            src="https://img.icons8.com/?size=100&id=2yC9SZKcXDdX&format=png&color=000000" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container_contact">
+        <!-- ABOUT -->
+        <section class="container about">
+            <h2 class="section-title">About Us</h2>
+            <div class="profile">
+                <img src="IMG/user_logo/user.png" alt="Profile">
+            </div>
+        </section>
+
+        <!-- CONTACT INTRO -->
+        <section class="container contact-intro">
+            <h3 class="contact-name">Lun Sireyvorth - លន់ សិរីវឌ្ឍ</h3>
+            <p class="contact-desc">
+                I am the founder and manager of a modern supermarket providing a wide range
+                of daily essentials, fresh groceries, food products, beverages, and household
+                items. Our supermarket is committed to offering high-quality products,
+                affordable prices, and reliable customer service to ensure a convenient and
+                satisfying shopping experience for our customers.
+            </p>
+            <button class="contact-btn">Contact Us</button>
+
+            <div class="socials">
+                <a href="#" class="social"><img src="IMG/icons8-facebook-50.png" alt=""></a>
+                <a href="#" class="social"><img
+                        src="https://img.icons8.com/?size=100&id=lUktdBVdL4Kb&format=png&color=000000" alt=""></a>
+                <a href="#" class="social"><img src="https://img.icons8.com/?size=100&id=60444&format=png&color=000000"
+                        alt=""></a>
+                <a href="#" class="social"><img src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000"
+                        alt=""></a>
+            </div>
+        </section>
+
+        <!-- OPERATING HOURS -->
+        <section class="container">
+            <h2 class="section-title">Operating Hours</h2>
+            <div class="hours">
+                <div class="row">
+                    <span>Monday - Friday</span>
+                    <span class="time">8:00 AM – 6:00 PM</span>
+                </div>
+                <div class="row">
+                    <span>Saturday</span>
+                    <span class="time">8:00 AM – 12:00 PM</span>
+                </div>
+                <div class="row">
+                    <span>Sunday</span>
+                    <span class="closed">Closed</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="container">
+            <div class="service-grid">
+                <div class="card">
+                    <div class="card-title">
+                        <span class="icon"><img src="IMG/icons8-delivery-50.png" alt=""></span>
+                        <h3>Delivery</h3>
+                    </div>
+                    <p>Fast and reliable delivery across Cambodia.</p>
+                    <ul>
+                        <li>Free delivery over $50</li>
+                        <li>Express delivery 24h</li>
+                        <li>Order tracking</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">
+                        <span class="icon"><img src="IMG/icons8-customer-service-50.png" alt=""></span>
+                        <h3>Customer Service</h3>
+                    </div>
+                    <p>Support team ready to help you.</p>
+                    <ul>
+                        <li>24/7 phone support</li>
+                        <li>Email & chat</li>
+                        <li>1-year warranty</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="note">
+                <strong>Note:</strong> Customer service is available during working hours.
+            </div>
+        </section>
+
+
+        <!-- SUPERMARKET CONTACT FORM -->
+        <section class="container market-contact">
+
+            <h2 class="section-title">Contact Supermarket</h2>
+
+            <form class="market-form">
+
+                <div class="row">
+                    <div class="field">
+                        <label>Customer Name</label>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="field">
+                        <label>Phone Number</label>
+                        <input type="tel" placeholder="e.g. 012 345 678" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="field">
+                        <label>Email</label>
+                        <input type="email" placeholder="example@gmail.com">
+                    </div>
+
+                    <div class="field">
+                        <label>Inquiry Type</label>
+                        <select>
+                            <option>Product Availability</option>
+                            <option>Price & Promotion</option>
+                            <option>Delivery</option>
+                            <option>Complaint</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label>Order / Invoice Number (Optional)</label>
+                    <input type="text" placeholder="e.g. INV-2026-001">
+                </div>
+
+                <div class="field">
+                    <label>Message</label>
+                    <textarea rows="5" placeholder="Describe your issue or question..."></textarea>
+                </div>
+
+                <button type="submit" class="market-btn">Submit Inquiry</button>
+
+            </form>
+        </section>
+
+
+
+
+        <!-- MAP -->
+        <section class="container map">
+            <iframe src="https://www.google.com/maps?q=Phnom%20Penh&output=embed"></iframe>
+        </section>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>FreshMart is your trusted online supermarket delivering quality groceries to your doorstep.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="login.html">Account</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: info@freshmart.com</p>
+                <p>Phone: 1-800-FRESH-99</p>
+                <p>Hours: Mon-Sun 8AM-10PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 FreshMart. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,413 @@
+/* ================================
+           1. RESET & BASE
+        ================================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  color: #333;
+}
+
+/* ================================
+           2. LAYOUT
+        ================================= */
+.container {
+  max-width: 1300px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* ================================
+           3. SECTION TITLE
+        ================================= */
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  width: 70px;
+  height: 4px;
+  background: #4f6cff;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* ================================
+           4. ABOUT
+        ================================= */
+.about {
+  text-align: center;
+}
+
+.profile {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 6px solid #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #343434;
+}
+
+/* ================================
+           5. CONTACT INTRO
+        ================================= */
+.contact-intro {
+  text-align: center;
+  margin: 80px auto;
+}
+
+.contact-name {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.contact-desc {
+  max-width: 900px;
+  margin: 0 auto 25px;
+  color: #666;
+  line-height: 1.7;
+}
+
+.contact-btn {
+  background: #1e3a8a;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.socials {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+.social img {
+  width: 35px;
+}
+.social {
+  text-decoration: none;
+  transition: 0.3s;
+}
+.social:hover {
+  transform: scale(1.15);
+}
+
+/* ================================
+           6. OPERATING HOURS
+        ================================= */
+.hours .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 18px;
+}
+
+.time {
+  color: #4f6cff;
+}
+
+.closed {
+  color: #ff5a5a;
+}
+
+/* ================================
+           7. SERVICES
+        ================================= */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: #f9fbff;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.icon img {
+  width: 30px;
+}
+
+.card p {
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.card ul {
+  list-style: none;
+}
+
+.card ul li {
+  padding: 12px 0 12px 28px;
+  border-top: 1px solid #eee;
+  position: relative;
+}
+
+.card ul li::before {
+  content: "✔";
+  color: #4f6cff;
+  position: absolute;
+  left: 0;
+}
+
+/* ================================
+           8. NOTE
+        ================================= */
+.note {
+  margin-top: 30px;
+  background: #f9fbff;
+  border-left: 6px solid #1e3a8a;
+  padding: 20px 25px;
+  border-radius: 12px;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* ================================
+           9. MAP
+        ================================= */
+.map iframe {
+  width: 100%;
+  height: 380px;
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* ================================
+   SUPERMARKET CONTACT FORM
+================================ */
+.market-contact {
+  margin-top: 80px;
+}
+
+.market-form {
+  background: #f9fbff;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+}
+
+/* Row layout */
+.market-form .row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 22px;
+}
+
+/* Field */
+.market-form .field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.market-form label {
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.market-form input,
+.market-form select,
+.market-form textarea {
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.market-form input:focus,
+.market-form select:focus,
+.market-form textarea:focus {
+  border-color: #4f6cff;
+  box-shadow: 0 0 0 3px rgba(79, 108, 255, 0.15);
+}
+
+/* Button */
+.market-btn {
+  margin-top: 30px;
+  width: 100%;
+  padding: 15px;
+  background: #1e3a8a; /* supermarket green */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.market-btn:hover {
+  background: #174726;
+  box-shadow: 0 10px 25px rgba(30, 86, 49, 0.35);
+  transform: translateY(-2px);
+}
+
+/* ================================
+   TABLET RESPONSIVE
+================================= */
+@media (max-width: 992px) {
+  .container {
+    margin: 50px auto;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .hours .row {
+    font-size: 16px;
+  }
+
+  .service-grid {
+    gap: 20px;
+  }
+
+  .contact-desc {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+
+  .map iframe {
+    height: 320px;
+  }
+}
+
+/* ================================
+   MOBILE RESPONSIVE
+================================= */
+@media (max-width: 576px) {
+  /* Container spacing */
+  .container {
+    margin: 40px auto;
+    padding: 0 15px;
+  }
+
+  /* Titles */
+  .section-title {
+    font-size: 22px;
+  }
+
+  /* Profile image */
+  .profile {
+    width: 120px;
+    height: 120px;
+  }
+
+  /* Contact intro */
+  .contact-name {
+    font-size: 18px;
+  }
+
+  .contact-desc {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .contact-btn {
+    padding: 8px 22px;
+    font-size: 14px;
+  }
+
+  /* Social icons */
+  .socials {
+    gap: 25px;
+  }
+
+  .social {
+    font-size: 20px;
+  }
+
+  /* Operating hours */
+  .hours .row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    font-size: 15px;
+  }
+
+  /* Services cards */
+  .card {
+    padding: 20px;
+  }
+
+  .card-title h3 {
+    font-size: 18px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  .card ul li {
+    font-size: 14px;
+  }
+
+  /* Note box */
+  .note {
+    font-size: 14px;
+    padding: 16px 18px;
+  }
+
+  /* Map */
+  .map iframe {
+    height: 260px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .market-form {
+    padding: 22px;
+  }
+
+  .market-form .row {
+    flex-direction: column;
+  }
+}
