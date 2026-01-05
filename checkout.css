@@ -300,11 +300,7 @@
     }
 
     .form-row {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .form-row:has(.form-group:nth-child(3)) {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     .form-card-header {
