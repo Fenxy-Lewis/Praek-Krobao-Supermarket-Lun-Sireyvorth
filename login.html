@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="auth.css">
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar">
@@ -50,7 +52,8 @@
             </ul>
 
             <div class="nav_left">
-                <img class="language" src="https://img.icons8.com/?size=100&id=15534&format=png&color=000000" alt="">
+                <a href="loginkh.html"><img class="language"
+                        src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt=""></a>
                 <div class="user">
                     <li><a href="cart.html"> <i class="icon_add_cart" data-lucide="handbag"></i></a></li>
                     <!-- <a href="login.html"><img src="IMG/user_logo/user.png" alt=""></a> -->
@@ -73,26 +76,14 @@
                 <form class="auth-form" action="index.html" method="GET">
                     <div class="form-group">
                         <label for="email" class="form-label">Email Address</label>
-                        <input 
-                            type="email" 
-                            id="email" 
-                            name="email" 
-                            class="form-input" 
-                            placeholder="your.email@example.com"
-                            required
-                        >
+                        <input type="email" id="email" name="email" class="form-input"
+                            placeholder="your.email@example.com" required>
                     </div>
 
                     <div class="form-group">
                         <label for="password" class="form-label">Password</label>
-                        <input 
-                            type="password" 
-                            id="password" 
-                            name="password" 
-                            class="form-input" 
-                            placeholder="Enter your password"
-                            required
-                        >
+                        <input type="password" id="password" name="password" class="form-input"
+                            placeholder="Enter your password" required>
                     </div>
 
                     <div class="form-group form-checkbox">
@@ -102,14 +93,18 @@
 
                     <button type="submit" class="btn btn-primary btn-full">Sign In</button>
                     <p style="text-align: center; margin: -20px; font-weight: 500;">or</p>
-                    <button type="submit" style="background-color:#34b7fd; color: white;" class="btn_telegram"><img class="img_telegram_login" src="https://img.icons8.com/?size=100&id=yEmPT1iidhE0&format=png&color=000000" alt="">Login with Telegram</button>
+                    <button type="submit" style="background-color:#34b7fd; color: white;" class="btn_telegram"><img
+                            class="img_telegram_login"
+                            src="https://img.icons8.com/?size=100&id=yEmPT1iidhE0&format=png&color=000000" alt="">Login
+                        with Telegram</button>
                 </form>
 
                 <div class="auth-divider">
                     <span>Don't have an account?</span>
                 </div>
 
-                <a href="signup.html" class="btn btn-secondary btn-full" style="background-color: #1e5631;">Create Account</a>
+                <a href="signup.html" class="btn btn-secondary btn-full" style="background-color: #1e5631;">Create
+                    Account</a>
 
                 <div class="auth-footer">
                     <a href="#">Forgot password?</a>
@@ -129,6 +124,36 @@
 
     <!-- Footer -->
     <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>FreshMart is your trusted online supermarket delivering quality groceries to your doorstep.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#products">Products</a></li>
+                    <li><a href="login.html">Account</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: info@freshmart.com</p>
+                <p>Phone: 1-800-FRESH-99</p>
+                <p>Hours: Mon-Sun 8AM-10PM</p>
+            </div>
+        </div>
         <div class="footer-bottom">
             <p>&copy; 2025 FreshMart. All rights reserved.</p>
         </div>
@@ -136,7 +161,7 @@
 
 
 
-        <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
     <script>
         lucide.createIcons();
     </script>
@@ -145,4 +170,5 @@
         AOS.init();
     </script>
 </body>
+
 </html>

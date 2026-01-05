@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="kh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshMart - ផ្សារទំនើបអនឡាញ</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img class="logo-icon" src="./IMG/user_logo/user.png" alt="">
+                <div style="display: flex;justify-content: start;align-items: left;flex-direction: column;">
+                    <p class="logo-text">Sireyvorth</p>
+                    <p class="gmail_text">sereyvorthlun@gmail.com</p>
+                </div>
+            </div>
+
+            <!-- Hamburger Menu -->
+            <input type="checkbox" id="hamburger" class="hamburger-checkbox">
+            <label for="hamburger" class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Navigation Links -->
+            <ul class="nav-menu">
+                <li><a href="indexkh.html" class="nav-link">ទំព័រដើម</a></li>
+                <li><a href="#products" class="nav-link">ផលិតផល</a></li>
+                <li class="logo_mid">Psa Krobao</li>
+                <li class="nav-dropdown">
+                    <span class="nav-link" style="display: flex; align-items: center;">
+                        ប្រភេទទំនិញ
+                        <i data-lucide="chevron-down"></i>
+                    </span>
+                    <div class="dropdown-menu">
+                        <a href="dryFoodkh.html">អាហារស្ងួត</a>
+                        <a href="Beveragekh.html">ភេសជ្ជៈ</a>
+                        <a href="nonFoodkh.html">មិនមែនជាអាហារ</a>
+                        <a href="freshFoodkh.html">អាហារស្រស់</a>
+                        <a href="butcherykh.html">សាច់សត្វ</a>
+                        <a href="electronickh.html">ឧបករណ៍អគ្គិសនី</a>
+                    </div>
+                </li>
+                <li><a href="contactkh.html" class="nav-link">ទំនាក់ទំនង</a></li>
+                <li><a href="cartkh.html" class="nav-link cart_acc">កន្ត្រក</a></li>
+                <li><a href="loginkh.html" class="nav-link cart_acc">គណនី</a></li>
+            </ul>
+
+            <div class="nav_left">
+                <a href="butchery.html"><img class="language"
+                        src="https://img.icons8.com/?size=100&id=15534&format=png&color=000000" alt=""></a>
+                <div class="user">
+                    <li>
+                        <a href="cartkh.html">
+                            <i class="icon_add_cart" data-lucide="handbag"></i>
+                        </a>
+                    </li>
+                    <a href="loginkh.html">
+                        <img src="https://img.icons8.com/?size=100&id=2yC9SZKcXDdX&format=png&color=000000" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <img src="https://c8.alamy.com/comp/2XPM7D2/middle-aisle-lidl-middle-of-lidl-featuring-non-food-items-wales-uk-01-august-2024-2XPM7D2.jpg"
+            alt="">
+        <div class="hero-content">
+            <h1>ផ្នែកសាច់សត្វ</h1>
+            <p>ផ្សារទំនើបអនឡាញតែមួយគត់ សម្រាប់ទំនិញគុណភាពខ្ពស់</p>
+            <a href="#products" class="btn btn-primary">ទិញឥឡូវនេះ</a>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="products" class="categories">
+        <div class="container">
+            <h2>ទិញតាមប្រភេទ</h2>
+            <div class="category-grid">
+                <a style="text-decoration: none;" href="butcherykh.html">
+                    <div style="background-color: #1e5631;" class="category-card" id="non-food">
+                        <div class="category-icon">🧴</div>
+                        <h3 style="color: white;">សាច់សត្វ</h3>
+                        <p style="color: white;">ឧបករណ៍ផ្ទះបាយ និងគ្រឿងប្រើប្រាស់</p>
+                    </div>
+                </a>
+                <a style="text-decoration: none;" href="dryFoodkh.html">
+                    <div class="category-card" id="dry-food">
+                        <div class="category-icon">🌾</div>
+                        <h3>អាហារស្ងួត</h3>
+                        <p>អង្ករ មី ប៉ាស្តា និងច្រើនទៀត</p>
+                    </div>
+                </a>
+                <a style="text-decoration: none;" href="freshFoodkh.html">
+                    <div class="category-card" id="fresh-food">
+                        <div class="category-icon">🥬</div>
+                        <h3>អាហារស្រស់</h3>
+                        <p>បន្លែ និងផ្លែឈើស្រស់</p>
+                    </div>
+                </a>
+                <a style="text-decoration: none;" href="Beveragekh.html">
+                    <div class="category-card" id="beverages">
+                        <div class="category-icon">🍹</div>
+                        <h3>ភេសជ្ជៈ</h3>
+                        <p>ទឹកផ្លែឈើ ភេសជ្ជៈកំប៉ុង និងផ្សេងៗ</p>
+                    </div>
+                </a>
+                <a style="text-decoration: none;" href="electronickh.html">
+                    <div class="category-card" id="electric-appliances">
+                        <div class="category-icon">🔌</div>
+                        <h3>អគ្គិសនី</h3>
+                        <p>ឧបករណ៍ផ្ទះបាយ និងគ្រឿងប្រើប្រាស់</p>
+                    </div>
+                </a>
+                <a style="text-decoration: none;" href="nonFoodkh.html">
+                    <div class="category-card" id="electric-appliances">
+                        <div class="category-icon">🔌</div>
+                        <h3>មិនមែនជាអាហារ</h3>
+                        <p>គ្រឿងប្រើប្រាស់ក្នុងផ្ទះ និងថែទាំខ្លួន</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <h2>សាច់សត្វ</h2>
+            <div class="category-section">
+                <h3 class="category-title">
+                    <img src="https://img.icons8.com/?size=100&id=VWzrGTDdZ3NA&format=png&color=000000" alt="">
+                    ផលិតផលសាច់សត្វ
+                </h3>
+                <div class="products-grid">
+
+                    <div data-aos="fade-up" class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/1.jpeg">
+                        <h4>សាច់គោក្រាស់កិន (គីឡូក្រាម)</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/2.jpeg">
+                        <h4>សាច់គោអូស្ទើរប្លេដ បង្កក ពីអូស្ត្រាលី ចិញ្ចឹមស្មៅ 250 ក្រាម</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/3.jpeg">
+                        <h4>សាច់គោ Chuck Roll បង្កក ពីអូស្ត្រាលី ចិញ្ចឹមស្មៅ 250 ក្រាម</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/4.jpeg">
+                        <h4>សាច់គោ Cube Roll បង្កក ពីអូស្ត្រាលី mPRO 200 ក្រាម × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/5.jpeg">
+                        <h4>សាច់គោ Striploin ពីអូស្ត្រាលី mPRO (Halal/Vacuum) 200 ក្រាម</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/6.jpeg">
+                        <h4>សាច់គោ Oyster Blade ចិញ្ចឹមគ្រាប់ធញ្ញជាតិ mPRO (Halal/Vacuum) 400 ក្រាម</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/7.jpeg">
+                        <h4>សាច់គោ Striploin ចិញ្ចឹមគ្រាប់ធញ្ញជាតិ ពីអូស្ត្រាលី mPRO (Halal/Vacuum) 400 ក្រាម</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/8.jpeg">
+                        <h4>សាច់គោ Cube Roll ចិញ្ចឹមគ្រាប់ធញ្ញជាតិ mPRO (Halal/Vacuum) 400 ក្រាម</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/9.jpeg">
+                        <h4>សាច់គោ Flap Meat ចិញ្ចឹមគ្រាប់ធញ្ញជាតិ mPRO (Halal/Vacuum) 400 ក្រាម</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/10.jpeg">
+                        <h4>សាច់គោ Cube Roll ពីអូស្ត្រាលី mPRO (Halal/Vacuum) 400 ក្រាម</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/11.jpeg">
+                        <h4>សាច់គោ Striploin ពីអូស្ត្រាលី mPRO (Halal/Vacuum) 400 ក្រាម</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/12.jpeg">
+                        <h4>សាច់គោ Cube Roll ពីអូស្ត្រាលី mPRO (Halal/Vacuum) 200 ក្រាម</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/13.jpeg">
+                        <h4>គ្រឿងក្នុងសាច់គោចម្រុះ 500 ក្រាម</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/14.jpeg">
+                        <h4>សាច់គោក្រាស់ហាន់សន្លឹក (គីឡូក្រាម)</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/15.jpeg">
+                        <h4>សាច់គោ Chuck Roll ហាន់/កាត់ (គីឡូក្រាម)</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up" class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/butchery/beef/16.jpeg">
+                        <h4>សាច់គោ Chuck Roll កិន (គីឡូក្រាម)</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart" class="cart-section" style="display:none;">
+        <div class="container">
+            <div class="cart-header">
+                <h2>កន្ត្រកទំនិញ</h2>
+                <a href="#home" class="btn btn-secondary">បន្តទិញ</a>
+            </div>
+            <div class="cart-content">
+                <p style="text-align: center; color: #666;">កន្ត្រករបស់អ្នកនៅទទេ</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>អំពីយើង</h4>
+                <p>FreshMart ជា Supermarket អនឡាញដែលអាចទុកចិត្តបាន ផ្តល់ជូនទំនិញគុណភាពដល់មុខផ្ទះអ្នក។</p>
+            </div>
+            <div class="footer-section">
+                <h4>តំណភ្ជាប់រហ័ស</h4>
+                <ul>
+                    <li><a href="#home">ទំព័រដើម</a></li>
+                    <li><a href="#products">ផលិតផល</a></li>
+                    <li><a href="login.html">គណនី</a></li>
+                    <li><a href="#">ទំនាក់ទំនង</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>សេវាកម្មអតិថិជន</h4>
+                <ul>
+                    <li><a href="#">ព័ត៌មានដឹកជញ្ជូន</a></li>
+                    <li><a href="#">ការប្តូរទំនិញ</a></li>
+                    <li><a href="#">សំណួរញឹកញាប់</a></li>
+                    <li><a href="#">គាំទ្រ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>ទំនាក់ទំនង</h4>
+                <p>អ៊ីមែល៖ info@freshmart.com</p>
+                <p>ទូរស័ព្ទ៖ 1-800-FRESH-99</p>
+                <p>ម៉ោង៖ ច័ន្ទ–អាទិត្យ 8AM–10PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 FreshMart. រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 100,
+            delay: 20,
+            duration: 500,
+            easing: 'ease-in-out',
+            once: false
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,1717 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FresFood - ផ្សារទំនើបអនឡាញ</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img class="logo-icon" src="./IMG/user_logo/user.png" alt="">
+                <div style="display: flex;justify-content: start;align-items: left;flex-direction: column;">
+                    <p class="logo-text">SIREYVORTH</p>
+                    <p class="gmail_text">sereyvorthlun@gmail.com</p>
+                </div>
+            </div>
+
+            <!-- Hamburger Menu -->
+            <input type="checkbox" id="hamburger" class="hamburger-checkbox">
+            <label for="hamburger" class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Navigation Links -->
+            <ul class="nav-menu">
+                <li><a href="indexkh.html" class="nav-link">ទំព័រដើម</a></li>
+                <li><a href="#products" class="nav-link">ផលិតផល</a></li>
+                <li class="logo_mid">Psa Krobao</li>
+                <li class="nav-dropdown">
+                    <span class="nav-link" style="display: flex; align-items: center;">ប្រភេទទំនិញ
+                        <i data-lucide="chevron-down"></i></span>
+                    <div class="dropdown-menu">
+                        <a href="dryFoodkh.html">អាហារស្ងួត</a>
+                        <a href="Beveragekh.html">ភេសជ្ជៈ</a>
+                        <a href="nonFoodkh.html">មិនមែនអាហារ</a>
+                        <a href="freshFoodkh.html">អាហារស្រស់</a>
+                        <a href="butcherykh.html">សាច់</a>
+                        <a href="electronickh.html">ឧបករណ៍អគ្គិសនី</a>
+                    </div>
+                </li>
+                <li><a href="contactkh.html" class="nav-link">ទំនាក់ទំនង</a></li>
+                <li><a href="cartkh.html" class="nav-link cart_acc">កន្ត្រក</a></li>
+                <li><a href="loginkh.html" class="nav-link cart_acc">គណនី</a></li>
+            </ul>
+
+            <div class="nav_left">
+                <a href="Beverage.html"><img class="language"
+                        src="https://img.icons8.com/?size=100&id=15534&format=png&color=000000" alt=""></a>
+                <div class="user">
+                    <li><a href="cartkh.html"> <i class="icon_add_cart" data-lucide="handbag"></i></a></li>
+                    <a href="loginkh.html"><img
+                            src="https://img.icons8.com/?size=100&id=2yC9SZKcXDdX&format=png&color=000000" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <img src="https://media.istockphoto.com/id/487652607/photo/summer-drink.jpg?s=612x612&w=0&k=20&c=3OojNgLf04YPn9LLIiPdnQrB39Gg26SGeu32a17Epfc="
+            alt="">
+        <div class="hero-content">
+            <h1>ភេសជ្ជៈ</h1>
+            <p>ផ្សារទំនើបអនឡាញគ្រប់យ៉ាងសម្រាប់គ្រឿងទេស និងទំនិញមានគុណភាព</p>
+            <a href="#products" class="btn btn-primary">ទិញឥឡូវនេះ</a>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="products" class="categories">
+        <div class="container">
+            <h2>ទិញតាមប្រភេទ</h2>
+            <div class="category-grid">
+                <a style="text-decoration: none;" href="freshFoodkh.html">
+                    <div style="background-color: #1e5631;" class="category-card" id="fresh-food">
+                        <div class="category-icon">🍹</div>
+                        <h3 style="color: white;">ភេសជ្ជៈ</h3>
+                        <p style="color: white;">ទឹកផ្លែឈើ ភេសជ្ជៈ និងផ្សេងៗ</p>
+                    </div>
+                </a>
+                <a style="text-decoration: none;" href="dryFoodkh.html">
+                    <div class="category-card" id="dry-food">
+                        <div class="category-icon">🌾</div>
+                        <h3>អាហារស្ងួត</h3>
+                        <p>អង្ករ មី គ្រាប់ធញ្ញជាតិ និងផ្សេងៗ</p>
+                    </div>
+                </a>
+                <a style="text-decoration: none;" href="nonFoodkh.html">
+                    <div class="category-card" id="non-food">
+                        <div class="category-icon">🧴</div>
+                        <h3>មិនមែនអាហារ</h3>
+                        <p>សម្ភារៈផ្ទះ និងផលិតផលថែទាំខ្លួន</p>
+                    </div>
+                </a>
+                <a style="text-decoration: none;" href="freshFoodkh.html">
+                    <div class="category-card" id="beverages">
+                        <div class="category-icon">🥬</div>
+                        <h3>អាហារស្រស់</h3>
+                        <p>បន្លែ និងផ្លែឈើស្រស់</p>
+                    </div>
+                </a>
+                <a style="text-decoration: none;" href="electronickh.html">
+                    <div class="category-card" id="electric-appliances">
+                        <div class="category-icon">🔌</div>
+                        <h3>អគ្គិសនី</h3>
+                        <p>ឧបករណ៍ផ្ទះ និងផ្ទះបាយ</p>
+                    </div>
+                </a>
+                <a style="text-decoration: none;" href="butcherykh.html">
+                    <div class="category-card" id="electric-appliances">
+                        <div class="category-icon">🔌</div>
+                        <h3>សាច់</h3>
+                        <p>ផលិតផលសាច់ស្រស់</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <div class="category_container">
+                <div class="header_ruler">
+                    <hr>
+                    <h2>ភេសជ្ជៈ</h2>
+                    <hr>
+                </div>
+                <div class="fresh_food_category">
+                    <ul>
+                        <li><a href="#beer">ស្រាបៀរ</a></li>
+                        <li><a href="#water">ទឹក</a></li>
+                        <li><a href="#milk">ទឹកដោះគោ</a></li>
+                        <li><a href="#caffee">កាហ្វេ</a></li>
+                        <li><a href="#juices">ទឹកផ្លែឈើ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="beer">
+                <br><br><br><br><br><br><br><br>
+            </div>
+            <div class="category-section">
+                <h3 class="category-title"><img
+                        src="https://img.icons8.com/?size=100&id=zFSgaWKLkFJM&format=png&color=000000"
+                        alt="">ផលិតផលស្រាបៀរ និងស្រា </h3>
+                <div class="products-grid">
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/1.png">
+                        <h4>ស្រាប៊ូបុង 1792 Small Batch 75CL × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/2.png">
+                        <h4>ស្រាវាំង 1847 Moscato 75CL × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/3.png">
+                        <h4>ស្រាវាំង 1847 Chateau Yaldara Moscato 75CL × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/4.png">
+                        <h4>ស្រាវាំង Kangaroo Ridge Merlot ឆ្នាំ 2022 75CL × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/5.png">
+                        <h4>តេគីឡា 818 Añejo 75CL × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/6.png">
+                        <h4>តេគីឡា 818 Blanco 75CL × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/7.png">
+                        <h4>តេគីឡា 818 Reposado 75CL × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/8.png">
+                        <h4>ស្រាបៀរ ABC កំប៉ុង 330ML × 24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/9.png">
+                        <h4>ស្រាបៀរ ABC ដប (Pint) 330ML × 24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/10.png">
+                        <h4>ស្រាបៀរ ABC សិង្ហបុរី កំប៉ុង KH 330ML × 24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/11.png">
+                        <h4>ស្រាបៀរ ABC Smooth Stout 330ML × 24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/12.png">
+                        <h4>វ៉ូដ្កា Absolut Blue 70CL × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/13.png">
+                        <h4>ស្រាវាំង Amador Medrano Tempranillo 75CL × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/14.png">
+                        <h4>ស្រាបៀរ Anchor កំប៉ុង (Non NCP) 330ML × 24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/15.png">
+                        <h4>ស្រាបៀរ Anchor កំប៉ុង Prize 330ML × 24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/16.png">
+                        <h4>ស្រាបៀរ Anchor ដប (Pint) 330ML × 24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/17.png">
+                        <h4>វីស្គី Arran Single Malt អាយុ 18 ឆ្នាំ 70CL × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/18.png">
+                        <h4>វីស្គី Arran Barrel Reserve 43% 70CL × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/19.png">
+                        <h4>វីស្គី Auchentoshan អាយុ 12 ឆ្នាំ 70CL × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/beer/20.png">
+                        <h4>វីស្គី Auchentoshan អាយុ 21 ឆ្នាំ 70CL × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="water">
+                <br><br><br><br><br><br><br><br>
+            </div>
+            <div class="category-section">
+                <h3 class="category-title"> <img
+                        src="https://img.icons8.com/?size=100&id=cpa3RyNsYJkU&format=png&color=000000" alt="">ផលិតផលទឹក
+                </h3>
+                <div class="products-grid">
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/1.png">
+                        <h4>ទឹកផឹក ANGKOR PURO DR 500 មីលីលីត្រ 1×24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/2.png">
+                        <h4>ទឹកផឹក ANGKOR PURO 1500 មីលីលីត្រ 1×12</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/3.png">
+                        <h4>ទឹកផឹក ANGKOR PURO 350 មីលីលីត្រ 1×24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/4.png">
+                        <h4>ទឹកធម្មជាតិ ARO 350 មីលីលីត្រ × 24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/5.png">
+                        <h4>ទឹកធម្មជាតិ ARO 500 មីលីលីត្រ × 24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/6.png">
+                        <h4>ទឹកផឹក CAMBODIA 1.5 លីត្រ × 12</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/7.png">
+                        <h4>ទឹកផឹក CAMBODIA 500 មីលីលីត្រ × 24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/8.png">
+                        <h4>ទឹកផឹក COLEE 1500 មីលីលីត្រ × 12</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/9.png">
+                        <h4>ទឹកផឹក COLEE 300 មីលីលីត្រ × 24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/10.png">
+                        <h4>ទឹកផឹក COLEE 500 មីលីលីត្រ × 24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/11.png">
+                        <h4>ទឹកផឹក CRYSTAL 600 មីលីលីត្រ × 12</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/12.png">
+                        <h4>ទឹកផឹក DASANI 1.5 លីត្រ × 6</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/13.png">
+                        <h4>ទឹកផឹក DASANI 500 មីលីលីត្រ 1×24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/14.png">
+                        <h4>ទឹកផឹក DASANI 350 មីលីលីត្រ 1×24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/15.png">
+                        <h4>ទឹករ៉ែ EAU KULEN 0.5 លីត្រ 1×24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/16.png">
+                        <h4>ទឹករ៉ែ EAU KULEN 1.5 លីត្រ 1×12</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/17.png">
+                        <h4>ទឹករ៉ែ ELAN 500 មីលីលីត្រ × 24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/18.png">
+                        <h4>ទឹករ៉ែ ELAN 300 មីលីលីត្រ × 24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/19.png">
+                        <h4>ទឹកផឹក HI-TECH 1.5 លីត្រ × 12</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/water/20.png">
+                        <h4>ទឹកផឹក HI-TECH 250 មីលីលីត្រ × 40</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="milk">
+                <br><br><br><br><br><br><br><br>
+            </div>
+            <div class="category-section">
+                <h3 class="category-title"> <img
+                        src="https://img.icons8.com/?size=100&id=cpa3RyNsYJkU&format=png&color=000000"
+                        alt="">ផលិតផលទឹកដោះគោ </h3>
+                <div class="products-grid">
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/1.png">
+                        <h4>ទឹកដោះអាល់ម៉ុន ALMOND BREEZE 946 មីលីលីត្រ × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/2.png">
+                        <h4>ទឹកដោះអាល់ម៉ុនរសជាតិសូកូឡា 180 មីលីលីត្រ × 3</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/3.png">
+                        <h4>ទឹកដោះអាល់ម៉ុនរសជាតិដើម 180 មីលីលីត្រ × 3</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/4.png">
+                        <h4>ទឹកដោះអាល់ម៉ុនរសជាតិវ៉ានីឡា 180 មីលីលីត្រ × 3</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/5.png">
+                        <h4>ទឹកដោះគោស្រស់ ANGKOR មិនផ្អែម 1 លីត្រ × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/6.png">
+                        <h4>ទឹកដោះគោ ANGKOR FINO ផ្អែម 220 មីលីលីត្រ × 48</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/7.png">
+                        <h4>ទឹកដោះគោ ANGKOR UHT មិនផ្អែម 220 មីលីលីត្រ × 48</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/8.png">
+                        <h4>គ្រីមផ្អែមកុងដិនស៍ ARO (មិនមែនទឹកដោះគោ) 2 គីឡូក្រាម × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/9.png">
+                        <h4>ទឹកដោះគោ ANGKOR ផ្អែម 110 មីលីលីត្រ × 48</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/10.png">
+                        <h4>ទឹកដោះគោ ANGKOR ផ្អែម 180 មីលីលីត្រ × 48</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/11.png">
+                        <h4>ទឹកដោះគោ BEAR BRAND ស្ទេរីលាយ មានហ្វូលេតខ្ពស់ 140 មីលីលីត្រ × 12</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/12.png">
+                        <h4>ទឹកដោះគោ BEAR BRAND ស្ទេរីលាយ 140 មីលីលីត្រ × 12</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/13.png">
+                        <h4>ទឹកដោះគោកុងដិនស៍ BEST COWS 1,284 ក្រាម × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/14.png">
+                        <h4>ទឹកដោះគោ BEAR BRAND ស្ទេរីលាយ ខ្លាញ់ទាប 140 មីលីលីត្រ × 12</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/15.png">
+                        <h4>គ្រីមផ្អែមកុងដិនស៍ CARNATION (មិនមែនទឹកដោះគោ) 2 គីឡូក្រាម × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/16.png">
+                        <h4>ម្សៅ COFFEE DREAMY 1000 ក្រាម × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/17.png">
+                        <h4>ទឹកដោះគោ COWHEAD PURE TWIST 1 លីត្រ × 12</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/18.png">
+                        <h4>ទឹកដោះគោ COWHEAD PURE 1 លីត្រ × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/19.png">
+                        <h4>ទឹកស៊ոյ DENA រសជាតិសេសាមខ្មៅ 180 មីលីលីត្រ × 48</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/milk/20.png">
+                        <h4>ទឹកដោះគោ UHT សម្រាប់កុមារ DUGRO រសជាតិទឹកឃ្មុំ 180 មីលីលីត្រ × 4</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="healthy">
+                <br><br><br><br><br><br><br><br>
+            </div>
+            <div class="category-section">
+                <h3 class="category-title"><img
+                        src="https://img.icons8.com/?size=100&id=cpa3RyNsYJkU&format=png&color=000000"
+                        alt="">ភេសជ្ជៈសុខភាព </h3>
+
+                <div class="products-grid">
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/1.png">
+                        <h4>ភេសជ្ជៈ Aquarius Sleek 330 មីលីលីត្រ 1×24 កំប៉ុង</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/2.png">
+                        <h4>ភេសជ្ជៈបង្កើនថាមពល BACCHUS 250 មីលីលីត្រ 1×24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/3.png">
+                        <h4>ភេសជ្ជៈរសជាតិលីឈី BLUE 500 មីលីលីត្រ × 6</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/4.png">
+                        <h4>ភេសជ្ជៈរសជាតិផេស BLUE 500 មីលីលីត្រ × 6</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/5.png">
+                        <h4>កញ្ចប់អំណោយ BRAND ហាំភឺ A</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/6.png">
+                        <h4>កញ្ចប់អំណោយ BRAND ហាំភឺ C</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/7.png">
+                        <h4>ភេសជ្ជៈសំបុកបក្សី BRAND’S មានសារធាតុ Xylitol 70 មីលីលីត្រ × 6</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/8.png">
+                        <h4>កញ្ចប់អំណោយ BRAND’S ហាំភឺ L</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/9.png">
+                        <h4>ភេសជ្ជៈសំបុកបក្សី BWELL មិនមានស្ករ 180 មីលីលីត្រ × 6</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/10.png">
+                        <h4>ភេសជ្ជៈសំបុកបក្សី BWELL 180 មីលីលីត្រ × 6</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/11.png">
+                        <h4>ភេសជ្ជៈបង្កើនថាមពល BACCHUS មិនមានស្ករ 250 មីលីលីត្រ × 24</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/12.png">
+                        <h4>ភេសជ្ជៈសំបុកបក្សី BELL 110 មីលីលីត្រ × 6</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/13.png">
+                        <h4>ភេសជ្ជៈសំបុកបក្សី BRAND’S រសជាតិដើម ជាមួយស្ករថ្ម 70 មីលីលីត្រ × 6 ដប</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/14.png">
+                        <h4>អេសសិនមាន់ BRAND’S 70 មីលីលីត្រ × 12</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/15.png">
+                        <h4>ភេសជ្ជៈសំបុកបក្សី BWELL មិនមានស្ករ 250 មីលីលីត្រ × 6</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/healty Drink/16.png">
+                        <h4>ភេសជ្ជៈសំបុកបក្សី BWELL 250 មីលីលីត្រ × 6</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="caffee">
+                <br><br><br><br><br><br><br><br>
+            </div>
+            <div class="category-section">
+                <h3 class="category-title"> <img
+                        src="https://img.icons8.com/?size=100&id=cpa3RyNsYJkU&format=png&color=000000"
+                        alt="">ផលិតផលកាហ្វេ </h3>
+                <div class="products-grid">
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/1.png">
+                        <h4>កាហ្វេ KOFI SHAKE'N ICE 3 in 1 ស្ករតិច 34 ក្រាម × 15</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/2.png">
+                        <h4>កាហ្វេ KOFI SHAKE'N ICE MATCHA តែបៃតង 35 ក្រាម × 15</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/3.png">
+                        <h4>កាហ្វេ CAFÉ PHO DEN DA 16 ក្រាម × 35 សាច់</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/4.png">
+                        <h4>កាហ្វេ CAFÉ PHO DEN DA ប្រអប់ 16 ក្រាម × 10 សាច់</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/5.png">
+                        <h4>កាហ្វេ Old Town រសជាតិការ៉ាមែលប្រៃ 35 ក្រាម × 15</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/6.png">
+                        <h4>កាហ្វេ Super Coffee 3 in 1 Espresso 17 ក្រាម × 100</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/7.png">
+                        <h4>កាហ្វេ GOOD DAY 3 in 1 រសជាតិ Hazel Nut 20 ក្រាម × 30</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/8.png">
+                        <h4>កាហ្វេ GOOD DAY រសជាតិដើម 20 ក្រាម × 30</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/9.png">
+                        <h4>កាហ្វេ Nescafé B&B ស្ករតិច 50% 15 ក្រាម × 27</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/10.png">
+                        <h4>កាហ្វេ MACCOFFEE PHO កាហ្វេទឹកកក 24 ក្រាម × 30</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/11.png">
+                        <h4>កាហ្វេ Super Coffee ស្ករតិច 15 ក្រាម × 25</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/12.png">
+                        <h4>កាហ្វេ Nescafé B&B Espresso Roast 15.1 ក្រាម × 60</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/13.png">
+                        <h4>កាហ្វេ Boncafe គ្រាប់កាហ្វេចម្អិន សម្រាប់កាហ្វេទឹកកក 500 ក្រាម × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/14.png">
+                        <h4>កាហ្វេ MACCOFFEE PHO Ice Coffee 24 ក្រាម × 10</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/15.png">
+                        <h4>កាហ្វេ Starbucks Mocha Ready to Drink 281 មីលីលីត្រ × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/caffee/16.png">
+                        <h4>កាហ្វេ Starbucks Frappuccino Ready to Drink 281 មីលីលីត្រ × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="juices">
+                <br><br><br><br><br><br><br><br>
+            </div>
+            <div class="category-section">
+                <h3 class="category-title"> <img
+                        src="https://img.icons8.com/?size=100&id=cpa3RyNsYJkU&format=png&color=000000"
+                        alt="">ផលិតផលទឹកផ្លែឈើ </h3>
+
+                <div class="products-grid">
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/1.png">
+                        <h4>ទឹកផ្លែប៉ោម Tree Top 100% 300 មីលីលីត្រ × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/2.png">
+                        <h4>ទឹកផ្លែប៉ោម Langer 946 មីលីលីត្រ × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/3.png">
+                        <h4>ទឹកផ្លែទំពាំងបាយជូរ Langer 946 មីលីលីត្រ × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/4.png">
+                        <h4>ទឹកផ្លែទទឹម Langer 946 មីលីលីត្រ × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/5.png">
+                        <h4>ទឹកផ្លែស្វាយ Langer Mongo Mango 946 មីលីលីត្រ × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/6.png">
+                        <h4>ទឹកផ្លែឈើចម្រុះ Langer Fruit Punch 946 មីលីលីត្រ × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/7.png">
+                        <h4>ភេសជ្ជៈអាឡូវេរ៉ា WJ រសជាតិដើម 240 មីលីលីត្រ × 6</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/8.png">
+                        <h4>ទឹកផ្លែប៉ោម Tree Top 100% 2 លីត្រ × 1</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/9.png">
+                        <h4>ទឹកក្រូច Tangerine TIPCO 100% 1000 មីលីលីត្រ × 3</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/10.png">
+                        <h4>ទឹកទំពាំងបាយជូរក្រហម TIPCO 100% 1000 មីលីលីត្រ × 3</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/11.png">
+                        <h4>ទឹកការ៉ុតចម្រុះ UNIF 100% 1000 មីលីលីត្រ × 3</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/12.png">
+                        <h4>ទឹកផ្លែទទឹម TIPCO 100% 1000 មីលីលីត្រ × 3</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/13.png">
+                        <h4>ទឹកក្រូច Sithong TIPCO 100% 1000 មីលីលីត្រ × 3</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/14.png">
+                        <h4>ទឹកម្នាស់ Malee 100% 200 មីលីលីត្រ × 6</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/15.png">
+                        <h4>ទឹកម្នាស់ KOKOZO COCO 320 មីលីលីត្រ × 6</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/16.png">
+                        <h4>ទឹកទំពាំងបាយជូរ KOKOZO COCO 320 មីលីលីត្រ × 6</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/17.png">
+                        <h4>ទឹកស្ត្របេរី KOKOZO COCO 320 មីលីលីត្រ × 6</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/18.png">
+                        <h4>ទឹកលីឈី KOKOZO COCO 320 មីលីលីត្រ × 6</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/19.png">
+                        <h4>ទឹកក្រូច KOKOZO COCO 320 មីលីលីត្រ × 6</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        class="product-card">
+                        <img class="icon_kh"
+                            src="https://img.icons8.com/?size=100&id=2ui1n4CYeion&format=png&color=000000" alt="">
+                        <i class="heart_cart" data-lucide="heart"></i>
+                        <img class="product-image" src="IMG/Local_Product/beverage/juice/20.png">
+                        <h4>ទឹកផ្លែ Passion Fruit Malee 20% 1 លីត្រ × 3 ដប</h4>
+                        <div class="product-price">២៥០០៛</div>
+                        <button class="btn btn-add">
+                            <i class="icon_cart" data-lucide="shopping-cart"></i>បញ្ចូលទៅកន្រ្តក
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>អំពីយើង</h4>
+                <p>FreshMart ជា Supermarket អនឡាញដែលអាចទុកចិត្តបាន ផ្តល់ជូនទំនិញគុណភាពដល់មុខផ្ទះអ្នក។</p>
+            </div>
+            <div class="footer-section">
+                <h4>តំណភ្ជាប់រហ័ស</h4>
+                <ul>
+                    <li><a href="#home">ទំព័រដើម</a></li>
+                    <li><a href="#products">ផលិតផល</a></li>
+                    <li><a href="login.html">គណនី</a></li>
+                    <li><a href="#">ទំនាក់ទំនង</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>សេវាកម្មអតិថិជន</h4>
+                <ul>
+                    <li><a href="#">ព័ត៌មានដឹកជញ្ជូន</a></li>
+                    <li><a href="#">ការប្តូរទំនិញ</a></li>
+                    <li><a href="#">សំណួរញឹកញាប់</a></li>
+                    <li><a href="#">គាំទ្រ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>ទំនាក់ទំនង</h4>
+                <p>អ៊ីមែល៖ info@freshmart.com</p>
+                <p>ទូរស័ព្ទ៖ 1-800-FRESH-99</p>
+                <p>ម៉ោង៖ ច័ន្ទ–អាទិត្យ 8AM–10PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 FreshMart. រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 100,
+            delay: 20,
+            duration: 500,
+            easing: 'ease-in-out',
+            once: false
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - FreshMart</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="auth.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img class="logo-icon" src="./IMG/user_logo/user.png" alt="">
+                <div style="display: flex;justify-content: start;align-items: left;flex-direction: column;">
+                    <p class="logo-text">SIREYVORTH</p>
+                    <p class="gmail_text">sereyvorthlun@gmail.com</p>
+                </div>
+            </div>
+
+            <!-- Hamburger Menu -->
+            <input type="checkbox" id="hamburger" class="hamburger-checkbox">
+            <label for="hamburger" class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Navigation Links -->
+            <ul class="nav-menu">
+                <li><a href="indexkh.html" class="nav-link">ទំព័រដើម</a></li>
+                <li><a href="#products" class="nav-link">ផលិតផល</a></li>
+                <li class="logo_mid">Psa Krobao</li>
+                <li class="nav-dropdown">
+                    <span class="nav-link" style="display: flex; align-items: center;">ប្រភេទទំនិញ
+                        <i data-lucide="chevron-down"></i></span>
+                    <div class="dropdown-menu">
+                        <a href="dryFoodkh.html">អាហារស្ងួត</a>
+                        <a href="Beveragekh.html">ភេសជ្ជៈ</a>
+                        <a href="nonFoodkh.html">មិនមែនអាហារ</a>
+                        <a href="freshFoodkh.html">អាហារស្រស់</a>
+                        <a href="butcherykh.html">សាច់</a>
+                        <a href="electronickh.html">ឧបករណ៍អគ្គិសនី</a>
+                    </div>
+                </li>
+                <li><a href="contactkh.html" class="nav-link">ទំនាក់ទំនង</a></li>
+                <li><a href="cartkh.html" class="nav-link cart_acc">កន្ត្រក</a></li>
+                <li><a href="loginkh.html" class="nav-link cart_acc">គណនី</a></li>
+            </ul>
+
+            <div class="nav_left">
+                <a href="signup.html"><img class="language" src="https://img.icons8.com/?size=100&id=15534&format=png&color=000000" alt=""></a>
+                <div class="user">
+                    <li><a href="cartkh.html"> <i class="icon_add_cart" data-lucide="handbag"></i></a></li>
+                    <a href="loginkh.html"><img
+                            src="https://img.icons8.com/?size=100&id=2yC9SZKcXDdX&format=png&color=000000" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Signup Section -->
+    <section class="auth-section">
+        <div class="auth-container">
+            <div class="auth-card">
+                <div class="auth-header">
+                    <h1>បង្កើតគណនី</h1>
+                    <p>ចូលរួមជាមួយ FreshMart សម្រាប់សេវាដឹកជញ្ជូនទំនិញស្រស់ រហ័ស និងមានគុណភាព</p>
+                </div>
+
+                <form class="auth-form" action="indexkh.html" method="GET">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstname" class="form-label">នាមខ្លួន</label>
+                            <input type="text" id="firstname" name="firstname" class="form-input" placeholder="John"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lastname" class="form-label">នាមត្រកូល</label>
+                            <input type="text" id="lastname" name="lastname" class="form-input" placeholder="Doe"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="signup-email" class="form-label">អាសយដ្ឋានអ៊ីមែល</label>
+                        <input type="email" id="signup-email" name="email" class="form-input"
+                            placeholder="your.email@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone" class="form-label">លេខទូរស័ព្ទ</label>
+                        <input type="tel" id="phone" name="phone" class="form-input" placeholder="+1 (555) 123-4567"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="signup-password" class="form-label">ពាក្យសម្ងាត់</label>
+                        <input type="password" id="signup-password" name="password" class="form-input"
+                            placeholder="បង្កើតពាក្យសម្ងាត់ដែលមានសុវត្ថិភាព" required>
+                        <small class="form-hint">យ៉ាងហោចណាស់ ៨ តួអក្សរ</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="confirm-password" class="form-label">បញ្ជាក់ពាក្យសម្ងាត់</label>
+                        <input type="password" id="confirm-password" name="confirm-password" class="form-input"
+                            placeholder="បញ្ជាក់ពាក្យសម្ងាត់របស់អ្នក" required>
+                    </div>
+
+                    <div class="form-group form-checkbox">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">ខ្ញុំយល់ព្រមនឹង លក្ខខណ្ឌ និង គោលការណ៍</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">បង្កើតគណនី</button>
+                </form>
+
+                <div class="auth-divider">
+                    <span>មានគណនីរួចហើយមែនទេ?</span>
+                </div>
+
+                <a href="loginkh.html" class="btn btn-secondary btn-full">ចូលគណនី</a>
+            </div>
+
+            <!-- Illustration -->
+            <!-- <div class="auth-illustration">
+            <div class="illustration-box">
+                <div class="illustration-icon">🌱</div>
+                <h2>ស្រស់ និង មានសុខភាពល្អ</h2>
+                <p>ចាប់ផ្តើមដំណើររបស់អ្នកជាមួយទំនិញគុណភាពខ្ពស់ និងសេវាដឹកជញ្ជូនរហ័សពី FreshMart</p>
+            </div>
+        </div> -->
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>អំពីយើង</h4>
+                <p>FreshMart ជា Supermarket អនឡាញដែលអាចទុកចិត្តបាន ផ្តល់ជូនទំនិញគុណភាពដល់មុខផ្ទះអ្នក។</p>
+            </div>
+            <div class="footer-section">
+                <h4>តំណភ្ជាប់រហ័ស</h4>
+                <ul>
+                    <li><a href="#home">ទំព័រដើម</a></li>
+                    <li><a href="#products">ផលិតផល</a></li>
+                    <li><a href="login.html">គណនី</a></li>
+                    <li><a href="#">ទំនាក់ទំនង</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>សេវាកម្មអតិថិជន</h4>
+                <ul>
+                    <li><a href="#">ព័ត៌មានដឹកជញ្ជូន</a></li>
+                    <li><a href="#">ការប្តូរទំនិញ</a></li>
+                    <li><a href="#">សំណួរញឹកញាប់</a></li>
+                    <li><a href="#">គាំទ្រ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>ទំនាក់ទំនង</h4>
+                <p>អ៊ីមែល៖ info@freshmart.com</p>
+                <p>ទូរស័ព្ទ៖ 1-800-FRESH-99</p>
+                <p>ម៉ោង៖ ច័ន្ទ–អាទិត្យ 8AM–10PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 FreshMart. រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
